@@ -19,7 +19,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'ba304db58a70442593a277fb180af22b',
     slug: 'ano-ang-blockchains',
     imageLinks: [
@@ -116,7 +116,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '21974b2299fc4ac28dd267198d5aee6c',
     slug: 'ano-ang-bitcoin',
     imageLinks: [
@@ -214,7 +214,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'aa68493efa9f40d5a857121fa2289b50',
     slug: 'ano-ang-ethereum',
     imageLinks: [
@@ -334,7 +334,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '87e6dd4c9b5347b2b5706f144f8abc6d',
     slug: 'ano-ang-smart-contract',
     imageLinks: [
@@ -433,7 +433,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'cc5cf59d830443419d530caa860a7301',
     slug: 'ano-ang-web3',
     imageLinks: [
@@ -538,7 +538,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '2f1380879c0a40b2bde5bd677683ab51',
     slug: 'ano-ang-defi',
     imageLinks: [
@@ -644,7 +644,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '79a6ca8eb3c94d759af5864e158f4c9b',
     slug: 'ano-ang-mga-nft',
     imageLinks: [
@@ -741,7 +741,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '5d86c9a7d82247428deee9c9eaf9fdb1',
     slug: 'ano-ang-dao',
     imageLinks: [
@@ -886,7 +886,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '5601c63cddac4f3f97e7f8f0fd1ffec5',
     slug: 'ano-ang-metaverse',
     imageLinks: [
@@ -996,7 +996,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '902f8787d02541a985aa22baf40fb187',
     slug: 'ano-ang-crypto-wallet',
     imageLinks: [
@@ -1236,7 +1236,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'f4fda04b920a498196a94584029baefe',
     slug: 'pagkilala-sa-humandao',
     imageLinks: [
@@ -1438,7 +1438,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: false,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'b230f725fd8643f4a1074d8773c95e0c',
     slug: 'community-support-role',
     imageLinks: [
@@ -1543,7 +1543,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: false,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '5c30f3971bed4d389589f22820b7237c',
     slug: 'mga-hakbang-sa-community-resolution',
     imageLinks: [
@@ -1660,7 +1660,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: false,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '487d45837a7148a8a5e346c5aa392b5f',
     slug: 'online-tools-para-sa-moderation-at-collaboration',
     imageLinks: [
@@ -1937,7 +1937,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: false,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '85ec56009f6c43179c824b3309dfe9de',
     slug: 'pinakamahusay-na-kasanayan',
     imageLinks: [
@@ -2049,7 +2049,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: false,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: '8000ee76f12047db928c106e28a14094',
     slug: 'panghuling-pagsusulit',
     imageLinks: [
@@ -2060,7 +2060,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'd1256233a31245919697c06d87a4e782',
         title: 'Panimula',
-        content: '<div class="bloc1"><p>Naabot mo na ngayon ang pinakahuling bahagi ng modyul ng Community Support, kung saan ilalapat mo ang iyong kaalaman sa mga online tool gaya ng Discord bots. </p><p>Ang pagkuha ng mataas na marka sa pagsusulit ang magpapatunay sa iyong pangunahing kaalaman sa Community Support role at kung paano mag setup ng server para sa isang web3 community.</p><p>Kung kailangan mo pa mag ensayo bago sumagot ng pagsusulit, huwag kang mag-alala! Maaari kang sumali sa isang server para masubukan ang iba’t-ibang commands at iba pang server settings.</p><p><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ano ang mga kailangan ihanda?</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p>Bago tayo magsimula sa pagsusulit, kailangan mong tiyakin na mayroon kang:</p><ul><li>isang na-verify na Discord account</li><li>isang aktibong email address</li><li>natapos ang mga aralin 1-4 sa Community Support module</li></ul><p>Maaari kang sumali sa server ng pagsasanay anumang oras gamit ng link na ito: <a href=\'https://discord.gg/4Hc8pP7g\'>https://discord.gg/4Hc8pP7g</a>.</p></div>'
+        content: '<div class="bloc1"><p>Naabot mo na ngayon ang pinakahuling bahagi ng modyul ng Community Support, kung saan ilalapat mo ang iyong kaalaman sa mga online tool gaya ng Discord bots. </p><p>Ang pagkuha ng mataas na marka sa pagsusulit ang magpapatunay sa iyong pangunahing kaalaman sa Community Support role at kung paano mag setup ng server para sa isang web3 community.</p><p>Kung kailangan mo pa mag ensayo bago sumagot ng pagsusulit, huwag kang mag-alala! Maaari kang sumali sa isang server para masubukan ang iba’t-ibang commands at iba pang server settings.</p><p><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ano ang mga kailangan ihanda?</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p>Bago tayo magsimula sa pagsusulit, kailangan mong tiyakin na mayroon kang:</p><ul><li>isang na-verify na Discord account</li><li>isang aktibong email address</li><li>natapos ang mga aralin 1-4 sa Community Support module</li></ul><p>Maaari kang sumali sa server ng pagsasanay anumang oras gamit ng link na ito: <a href=\'https://discord.gg/D4Tpg8uDuq\'>https://discord.gg/D4Tpg8uDuq</a>.</p></div>'
       },
       {
         type: 'LEARN',
@@ -2072,7 +2072,7 @@ const LESSONS: LessonType[] = [
         type: 'LEARN',
         notionId: 'c4f9e21a1f4e4486b948252faca60c49',
         title: 'Istraktura ng Pagsusulit',
-        content: '<div class="bloc1"><p>Ang pagsusulit ay may higit sa 25 katanungan na maaari lamang sagutan sa loob ng 60 minuto.</p><p>Binubuo ito ng mga sumusunod na bahagi:</p><ol><li>Matching type (Mga bahagi ng dashboard ng server/bot) - 25 puntos</li><li>Multiple choice (Pagpili ng tamang aksyon sa isang sitwasyon) - 15 puntos</li><li>Identification (Paggamit ng mga tamang command) - 20 puntos</li><li>Performance task (Paggawa ng mga roles/channel) - 40 puntos</li></ol><p>Upang maging kwalipikado para sa role na ito, kailangan mong maabot ang 80% passing score. Kung hindi, kailangan mong dumaan muli sa pagsusulit sa ibang pagkakataon.</p></div>'
+        content: '<div class="bloc1"><p>Ang pagsusulit ay may higit sa 22 katanungan na maaari lamang sagutan sa loob ng 60 minuto.</p><p>Binubuo ito ng mga sumusunod na bahagi:</p><ol><li>Matching type (Mga bahagi ng dashboard ng server/bot) - 25 puntos</li><li>Multiple choice (Pagpili ng tamang aksyon sa isang sitwasyon) - 15 puntos</li><li>Identification (Paggamit ng mga tamang command) - 20 puntos</li><li>Performance task (Paggawa ng mga roles/channel) - 40 puntos</li></ol><p>Upang maging kwalipikado para sa role na ito, kailangan mong maabot ang 80% passing score. Kung hindi, kailangan mong dumaan muli sa pagsusulit sa ibang pagkakataon.</p></div>'
       },
       {
         type: 'LEARN',
@@ -2104,7 +2104,7 @@ const LESSONS: LessonType[] = [
     isFeaturedOnHomepage: true,
     isCommentsEnabled: true,
     endOfLessonRedirect: null,
-    endOfLessonText: undefined,
+    endOfLessonText: 'MAHALAGANG PAALALA: Makakatanggap ka ng non-transferrable NFT badge at trophy sa kada lesson na matatapos mo sa humanDAO Academy. Magsisilbi ang mga NFT na ito bilang patunay ng iyong kaalaman at karunungan sa humanDAO at web3. Sa susunod na pagkakataon, maaaring makatulong ito sa iyong paghahanap ng trabaho dahil taglay ng wallet mo ang pinaka resume o CV ng iyong mga natapos. Kaya hangga\'t maaari, isang wallet lang ang dapat mong gamitin at hindi iwawala kailanman.',
     notionId: 'a22bc1027f1246b582689fe3ad6c0ac9',
     slug: 'financial-literacy-101',
     imageLinks: [
