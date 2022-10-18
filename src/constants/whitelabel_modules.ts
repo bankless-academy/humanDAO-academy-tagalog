@@ -5,9 +5,9 @@ const MODULES: ModuleType[] = [
     name: 'Crypto Wallet',
     moduleImageLink: '/humanDAO/module/crypto-wallet-d576733e.png',
     socialImageLink: '/humanDAO/module/crypto-wallet-social-c43a0d0d.jpg',
-    description: 'Start your Web3 journey here and learn to setup your digital wallet!',
+    description: 'Aralin natin ang web3 at alamin kung paano mag set up ng isang digital wallet!',
     slug: 'crypto-wallet',
-    moduleId: 'f686aa87be9644788ab424f7e472ed38',
+    moduleId: '8507bffcd2314a96be8c5abb6d061cb3',
     parentModule: null,
     subModules: []
   },
@@ -15,42 +15,42 @@ const MODULES: ModuleType[] = [
     name: 'Crypto 101',
     moduleImageLink: '/humanDAO/module/crypto-101-bd829855.png',
     socialImageLink: '/humanDAO/module/crypto-101-social-77926ea0.jpg',
-    description: 'Blockchain, Web3 & Smart contracts - what does it all mean? ',
+    description: 'Blockchain, Web3 & Smart contracts - ano ang mga teknolohiyang ito? ',
     slug: 'crypto-101',
-    moduleId: '81de713b4f9f4008bbdcb6333400daae',
+    moduleId: 'df2d0ff169394c5baff0e96d1304fee7',
     parentModule: null,
     subModules: [
-      '59e5eee1c08541118e7c1db6895fd63d',
-      '40959b191fcc4b058e3e8049410013f9'
+      '57608cf30b5547ac8f97bc9b9443b90c',
+      '5679e9abfc4142efaad04964d2307667'
     ]
   },
   {
-    name: 'What are Blockchains?',
-    moduleImageLink: '/humanDAO/module/what-are-blockchains-b2720112.png',
-    socialImageLink: '/humanDAO/module/what-are-blockchains-social-0569a558.jpg',
-    description: 'Understand the basics of blockchain tech and why it’s innovative',
-    slug: 'what-are-blockchains',
-    moduleId: '59e5eee1c08541118e7c1db6895fd63d',
-    parentModule: '81de713b4f9f4008bbdcb6333400daae',
+    name: 'Ano ang blockchains?',
+    moduleImageLink: '/humanDAO/module/ano-ang-blockchains-8c137c31.png',
+    socialImageLink: '/humanDAO/module/ano-ang-blockchains-social-69de2660.png',
+    description: 'Tukuyin natin ang mga pangunahing konsepto sa blockchain at ang makabagong teknolohiya nito',
+    slug: 'ano-ang-blockchains',
+    moduleId: '57608cf30b5547ac8f97bc9b9443b90c',
+    parentModule: 'df2d0ff169394c5baff0e96d1304fee7',
     subModules: []
   },
   {
-    name: 'What is Web3?',
-    moduleImageLink: '/humanDAO/module/what-is-web3-78493fae.png',
-    socialImageLink: '/humanDAO/module/what-is-web3-social-1db5fd3b.jpg',
-    description: 'Find out what web3 is and what makes it different',
-    slug: 'what-is-web3',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
-    parentModule: '81de713b4f9f4008bbdcb6333400daae',
+    name: 'Ano ang Web3?',
+    moduleImageLink: '/humanDAO/module/ano-ang-web3-f5ecf3be.png',
+    socialImageLink: '/humanDAO/module/ano-ang-web3-social-42b78fbc.png',
+    description: 'Kilalanin natin ang web3 at alamin ang pagkakaiba nito',
+    slug: 'ano-ang-web3',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
+    parentModule: 'df2d0ff169394c5baff0e96d1304fee7',
     subModules: []
   },
   {
     name: 'humanDAO',
     moduleImageLink: '/humanDAO/module/humandao-7b671f0f.png',
     socialImageLink: '/humanDAO/module/humandao-social-0659ea82.jpg',
-    description: 'Take a deep-dive into humanDAO, its objectives and the community roles.',
+    description: 'Kilalanin natin ang mga layunin at oportunidad sa humanDAO',
     slug: 'humandao',
-    moduleId: 'cd36caed3ea74782a356bd02f28179bc',
+    moduleId: '7f16572f0ce84cda82ae6c15e4f1e7bf',
     parentModule: null,
     subModules: []
   },
@@ -58,32 +58,32 @@ const MODULES: ModuleType[] = [
     name: 'Financial Literacy',
     moduleImageLink: '/humanDAO/module/financial-literacy-a92130de.png',
     socialImageLink: '/humanDAO/module/financial-literacy-social-209b5d89.jpg',
-    description: 'Learn to manage your financial wellbeing with this intro to responsible finances.',
+    description: 'Aralin natin ang wastong pangangasiwa ng salapi',
     slug: 'financial-literacy',
-    moduleId: 'eec24eea0e8048c29623a8a2cccd0d33',
+    moduleId: '7b4ecd08259c4708aadcd4d76dd4707f',
     parentModule: null,
     subModules: []
   },
   {
-    name: 'Web3 Opportunities',
-    moduleImageLink: '/humanDAO/module/web3-opportunities-6313e6f8.png',
-    socialImageLink: '/humanDAO/module/web3-opportunities-social-e7a637e2.jpg',
-    description: 'Explore career opportunities in the Web3 space.',
-    slug: 'web3-opportunities',
-    moduleId: '5e498e97002548969806ab63e57d1e20',
+    name: 'Oportunidad sa web3',
+    moduleImageLink: '/humanDAO/module/oportunidad-sa-web3-4a2c7972.png',
+    socialImageLink: '/humanDAO/module/oportunidad-sa-web3-social-e6ab959d.png',
+    description: 'Hanapin natin ang mga bagong oportunidad sa web3',
+    slug: 'oportunidad-sa-web3',
+    moduleId: '90ce720ed7b14a9186a98a414d6eaf50',
     parentModule: null,
     subModules: [
-      '86834c89c79c427a92e6133422ba976c'
+      '36835560ea344efea39d206b16821f53'
     ]
   },
   {
     name: 'Community Support',
     moduleImageLink: '/humanDAO/module/community-support-98af065b.png',
     socialImageLink: '/humanDAO/module/community-support-social-b246f4f8.jpg',
-    description: 'This module serves as a training ground for a web3 support role.',
+    description: 'Tuklasin natin ang mga tungkulin ng Community Support role at mag ensayo base sa kaalaman',
     slug: 'community-support',
-    moduleId: '86834c89c79c427a92e6133422ba976c',
-    parentModule: '5e498e97002548969806ab63e57d1e20',
+    moduleId: '36835560ea344efea39d206b16821f53',
+    parentModule: '90ce720ed7b14a9186a98a414d6eaf50',
     subModules: []
   }
 ]

@@ -2,19 +2,18 @@ import { LessonType } from 'entities/lesson'
 
 const LESSONS: LessonType[] = [
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-blockchains/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-blockchains/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-blockchains/lesson-aa737f34.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-blockchains/social-adf6d3d5.jpg',
     learningActions: '',
     marketingDescription: 'Kaalaman sa mga pangunahing konsepto sa Blockchain Technology',
-    poapEventId: 26971,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: 'Easy',
     description: 'Kaalaman sa mga pangunahing konsepto sa Blockchain Technology',
     name: 'Ano ang blockchains?',
-    moduleId: '59e5eee1c08541118e7c1db6895fd63d',
+    moduleId: '57608cf30b5547ac8f97bc9b9443b90c',
     quest: 'humanDAOAnoAngBlockchains',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -38,7 +37,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '70ffc73437534126809ad0bc68c8d0cf',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Kailangan ba ng <em>third party</em> o grupo para patunayan ang mga transaksyon sa blockchain?',
           rightAnswerNumber: 2,
@@ -58,7 +57,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'cd13f94089c84fd4a6938d20ff64d0d0',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa mga ito ang HINDI naitatala o nalalagay sa blockchain?',
           rightAnswerNumber: 4,
@@ -80,7 +79,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '748965aea47c4d8485f6fbdbc711260a',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa mga ito ay maituturing na “fungible”?',
           rightAnswerNumber: 3,
@@ -100,19 +99,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-bitcoin/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-bitcoin/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-bitcoin/lesson-b2e566ae.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-bitcoin/social-bafa3475.jpg',
     learningActions: '',
     marketingDescription: 'Pagtatalakay sa Bitcoin bilang unang cryptocurrency',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pagtatalakay sa Bitcoin bilang unang cryptocurrency',
     name: 'Ano ang Bitcoin?',
-    moduleId: '59e5eee1c08541118e7c1db6895fd63d',
+    moduleId: '57608cf30b5547ac8f97bc9b9443b90c',
     quest: 'humanDAOAnoAngBitcoin',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -136,7 +134,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '015b6fbda2b94e5d9cca46b733f5d9c0',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: '<strong>Bitcoin is based on _________ blockchain.</strong>',
           rightAnswerNumber: 2,
@@ -158,7 +156,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '032f347144d244cca57945b48f3eb67b',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang paggawa ng Bitcoin ay malakas mag-consume ng enerhiya.',
           rightAnswerNumber: 1,
@@ -179,7 +177,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'ed4982ef866e4e2a9ecc0724f6975f21',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Gaano lang karami ang maaaring gawin na Bitcoin?',
           rightAnswerNumber: 2,
@@ -199,19 +197,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-ethereum/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-ethereum/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-ethereum/lesson-d58e92ed.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-ethereum/social-577b3b87.jpg',
     learningActions: '',
     marketingDescription: 'Pagtatalakay sa Ethereum bilang unang smart contract',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pagtatalakay sa Ethereum bilang unang smart contract',
     name: 'Ano ang Ethereum?',
-    moduleId: '59e5eee1c08541118e7c1db6895fd63d',
+    moduleId: '57608cf30b5547ac8f97bc9b9443b90c',
     quest: 'humanDAOAnoAngEthereum',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -244,7 +241,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'e612869cdf7248fa9fade29e70ced145',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang Ethereum ay kinikilala bilang unang blockchain na may ______.',
           rightAnswerNumber: 2,
@@ -272,7 +269,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '16417a4ed9bf4d79bd2faa5ee10a5ff7',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang ‘gas’?',
           rightAnswerNumber: 2,
@@ -300,12 +297,12 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'f63bd7a134e142afbc785fd8582f2b5b',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa mga ito ang maituturing na smart-contract based blockchain?',
           rightAnswerNumber: 1,
           answers: [
-            ' Etherereum',
+            'Etherereum',
             'Bitcoin',
             'US Dollar',
             'Lahat ng nabanggit'
@@ -320,19 +317,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-smart-contract/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-smart-contract/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-smart-contract/lesson-b0c1b71c.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-smart-contract/social-ad6052a3.jpg',
     learningActions: '',
     marketingDescription: 'Pag-unawa sa pundasyon ng web3',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pag-unawa sa pundasyon ng web3',
     name: 'Ano ang Smart Contract?',
-    moduleId: '59e5eee1c08541118e7c1db6895fd63d',
+    moduleId: '57608cf30b5547ac8f97bc9b9443b90c',
     quest: 'humanDAOAnoAngSmartContract',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -356,7 +352,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '490da3185d0c4bf0be15718df2ef9d3b',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang smart contract?',
           rightAnswerNumber: 1,
@@ -378,7 +374,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'c88991c30e9a4724872428bed9d1ee56',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa mga nasa ibaba ang HINDI katangian ng isang Smart Contract:',
           rightAnswerNumber: 1,
@@ -400,7 +396,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '0775ede98f6345bda50911ce4884c9f6',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa ibaba ang gamit sa mga Smart Contacts',
           rightAnswerNumber: 4,
@@ -420,19 +416,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-web3/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-web3/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-web3/lesson-18144da6.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-web3/social-cfaf58ba.jpg',
     learningActions: '',
     marketingDescription: 'Pagtatalakay sa web3',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pagtatalakay sa web3',
     name: 'Ano ang Web3?',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
     quest: 'humanDAOAnoAngWeb3',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -462,7 +457,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '28afb6622d9542af87280c5181b3c51c',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa ibaba ang HINDI katangian ng Web3?',
           rightAnswerNumber: 3,
@@ -484,7 +479,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '4d4f6996504b4b1787ccece9f8e65cd2',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang mga plataporma kagaya ng Facebook and Instagram ay ilan sa mga halimbawa ng:',
           rightAnswerNumber: 2,
@@ -506,7 +501,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'd46e2cc42d9f4771b01fe2224a381412',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa ibaba ang HINDI katangian ng Web3?',
           rightAnswerNumber: 2,
@@ -526,19 +521,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-defi/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-defi/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-defi/lesson-a2b572d2.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-defi/social-cc86f1ba.jpg',
     learningActions: '',
     marketingDescription: 'Pag-unawa sa pangunahing kaalaman ng Decentralized Finance',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pag-unawa sa pangunahing kaalaman ng Decentralized Finance',
     name: 'Ano ang DeFi?',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
     quest: 'humanDAOAnoAngDeFi',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -563,7 +557,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '566f5354d7964e1385aaf3173e419e58',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang <em>DeFi </em>ay posibleng palitan ang ________________?',
           rightAnswerNumber: 4,
@@ -591,7 +585,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'aa190a7430db4c759cde8b58d60f8397',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang mga <em>DeFi services</em> ay puwedeng gamitin para',
           rightAnswerNumber: 4,
@@ -613,7 +607,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '79fe86fe04284973bca7ee2b353d19eb',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin sa mga ito ang halimbawa ng <em>core DeFi platform</em>',
           rightAnswerNumber: 4,
@@ -633,19 +627,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-mga-nft/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-mga-nft/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-mga-nft/lesson-7774c66e.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-mga-nft/social-5a13bdc2.jpg',
     learningActions: '',
     marketingDescription: 'Pag-unawa sa mga pangunahing kaalaman Non-Fungible Tokens',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pag-unawa sa mga pangunahing kaalaman Non-Fungible Tokens',
     name: 'Ano ang mga NFT?',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
     quest: 'humanDAOAnoAngMgaNFT',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -668,7 +661,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '5e149ddcd40041d18e007e5b10753f40',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang <em>NFT</em> ay patunay ng ________',
           rightAnswerNumber: 2,
@@ -690,7 +683,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '2ca5ab5eba7945a08324db037ee019e0',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang code na nagpapahintulot na makapag-<em>mint</em> ng <em>NFT</em>?',
           rightAnswerNumber: 2,
@@ -712,7 +705,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'defbc243ee9146eb8bab42d78fa9bbc2',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang NFT ay maaaring tawaging ________',
           rightAnswerNumber: 1,
@@ -731,19 +724,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-dao/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-dao/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-dao/lesson-dd20ff12.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-dao/social-9397de7b.jpg',
     learningActions: '',
     marketingDescription: 'Pagtalakay sa konsepto ng web3 orgs',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Pagtalakay sa konsepto ng web3 orgs',
     name: 'Ano ang DAO?',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
     quest: 'humanDAOAnoAngDAO',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -785,7 +777,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '708f1c2ccc744b16ada507328901b81e',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Lahat ng importanteng desisyon sa isang DAO ay ginaganap sa pamamagitan ng ________',
           rightAnswerNumber: 2,
@@ -831,7 +823,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '604cb44d9eac43cdb2c9611ae3decc85',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Kaiangan magkasama sa isang lugar o opisina ang mga nagtatrabaho sa isang DAO para maging mahusay.',
           rightAnswerNumber: 2,
@@ -857,7 +849,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'e165a56d91c142588510612db1a002c0',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang iba’t-ibang DAO ay mahahanap sa uri na ito:',
           rightAnswerNumber: 4,
@@ -877,19 +869,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-metaverse/poap-751cf023.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-metaverse/kudos-751cf023.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-metaverse/lesson-afb72abf.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-metaverse/social-03cca826.jpg',
     learningActions: '',
     marketingDescription: 'Isang maikling pagtalakay sa Metaverse',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Isang maikling pagtalakay sa Metaverse',
     name: 'Ano ang Metaverse?',
-    moduleId: '40959b191fcc4b058e3e8049410013f9',
+    moduleId: '5679e9abfc4142efaad04964d2307667',
     quest: 'humanDAOAnoAngMetaverse',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -915,7 +906,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '9760588144aa44bc8140d49f2af18561',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang Metaverse platform ay maaring gamitin sa _____.',
           rightAnswerNumber: 4,
@@ -943,7 +934,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '96f306d794ef4828abfeb467a4f503bd',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang Metaverse ay maari lamang mabuo gamit ang Blockchain Technology.',
           rightAnswerNumber: 2,
@@ -969,7 +960,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '16cf2d6f81cb47b0af4c97a076efdf31',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang mga sumusunod ay halimbawa ng Decentralised Metaverses',
           rightAnswerNumber: 2,
@@ -988,19 +979,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/ano-ang-crypto-wallet/poap-091da5ee.png',
+    kudosImageLink: '/humanDAO/lesson/ano-ang-crypto-wallet/kudos-091da5ee.png',
     lessonImageLink: '/humanDAO/lesson/ano-ang-crypto-wallet/lesson-93b37bc0.png',
     socialImageLink: '/humanDAO/lesson/ano-ang-crypto-wallet/social-bc3b6d21.jpg',
     learningActions: '',
     marketingDescription: 'Kaalaman sa paggawa at ligtas na paggamit ng isang crypto wallet.',
-    poapEventId: null,
     kudosId: null,
     duration: 15,
     learnings: '',
     difficulty: 'Easy',
     description: 'Kaalaman sa paggawa at ligtas na paggamit ng isang crypto wallet.',
     name: 'Ano ang Crypto Wallet?',
-    moduleId: 'f686aa87be9644788ab424f7e472ed38',
+    moduleId: '8507bffcd2314a96be8c5abb6d061cb3',
     quest: 'humanDAOAnoAngCryptoWallet',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -1039,7 +1029,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'cae39d51ddd94c379878264e22413d7c',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Sa konteksto ng blockchain, ano ang isang wallet?',
           rightAnswerNumber: 4,
@@ -1061,7 +1051,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '8422be8d3a4b49fe8e4fa41390d8384e',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Paano mo magagamit ang iyong Recovery Phrase?',
           rightAnswerNumber: 3,
@@ -1089,7 +1079,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '9bc9a0f6b915486783814a2d9078eff6',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang iyong public key ay maaaring ihalintulad sa _____. Samantala, ang iyong private key naman ay tulad ng _____.',
           rightAnswerNumber: 2,
@@ -1111,7 +1101,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'd6f99ede2b464356b69173e608d6198e',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ikaw ba ang may kakayahang mag-access sa iyong <em>private key</em> gamit ang <em>custodial wallet</em>?',
           rightAnswerNumber: 2,
@@ -1131,7 +1121,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'd5f109fa05c942a7ab255eb859a74fde',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Responsable ka ba para sa iyong <em>private key</em> sa <em>non-custodial wallet</em>?',
           rightAnswerNumber: 1,
@@ -1151,7 +1141,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '5fd0190bcd114eb6b3767ebed3c379bd',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang pinakaligtas na paraan para maprotektahan ang iyong <em>recovery phrase</em>?',
           rightAnswerNumber: 4,
@@ -1179,7 +1169,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '0a0f643ab8be4fdfaa05067e8f264fa6',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Mas ligtas ba gamitin ang <em>cold wallet</em> kaysa sa <em>hot wallet?</em>',
           rightAnswerNumber: 1,
@@ -1199,7 +1189,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '4537c20204584dec91baf8589a2bbfb7',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang <em>MetaMask</em> ba ay isang <em>custodial wallet</em>?',
           rightAnswerNumber: 2,
@@ -1213,7 +1203,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'LEARN',
         notionId: '65826b5c475e4c6bb6aca4365ca80fe2',
-        title: 'Alamin kung paano makuha ang gantimpala',
+        title: 'Alamin kung paano makuha ang SBT',
         content: '<div class="bloc1"><p>Ang Soulbound Tokens (SBTs) ay nagsisilbing “completion badge” sa bawat module na matatapos ng isang user. Ito rin ay maaaring i-distribute sa mga Pocket Assistant at scholar sa humanDAO gamit ang Polygon Network. </p><p>Panoorin natin ang video na ito para masundan kung paano i-add ang Polygon network at makita ang mga tokens.</p></div><div class="bloc2"><iframe allowfullscreen src=\'https://www.youtube.com/embed/eRKzP5q8F9Y?feature=oembed&rel=0\'></iframe></div>'
       },
       {
@@ -1229,19 +1219,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/pagkilala-sa-humandao/poap-a608c528.png',
+    kudosImageLink: '/humanDAO/lesson/pagkilala-sa-humandao/kudos-a608c528.png',
     lessonImageLink: '/humanDAO/lesson/pagkilala-sa-humandao/lesson-29ea4ca9.png',
     socialImageLink: '/humanDAO/lesson/pagkilala-sa-humandao/social-4b41d78a.jpg',
     learningActions: '',
     marketingDescription: 'Maikling pagtalakay sa layunin ng humanDAO: Ang pag-angat ng buhay gamit ang cryptocurrency',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Maikling pagtalakay sa layunin ng humanDAO: Ang pag-angat ng buhay gamit ang cryptocurrency',
     name: 'Pagkilala sa humanDAO',
-    moduleId: 'cd36caed3ea74782a356bd02f28179bc',
+    moduleId: '7f16572f0ce84cda82ae6c15e4f1e7bf',
     quest: 'humanDAOPagkilalaSaHumanDAO',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -1284,7 +1273,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'f378b1f977d9412c84bbec994e9879a8',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang apat na haligi ng humanDAO?',
           rightAnswerNumber: 1,
@@ -1311,7 +1300,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '7115c5b4af7e4682a88627388a02558a',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang ibig sabihin ng P2E & L2E?',
           rightAnswerNumber: 2,
@@ -1338,7 +1327,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'af226e7d77c740818b8ed9dce19b5784',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang tatlong kasalukuyang roles sa humanDAO?',
           rightAnswerNumber: 1,
@@ -1401,7 +1390,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '7618cbc351494b87ab5b54f4421910fb',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang mga benepisyo ng paghawak sa $HDAO token?',
           rightAnswerNumber: 3,
@@ -1432,19 +1421,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/community-support-role/poap-922d7695.png',
-    lessonImageLink: '/humanDAO/lesson/community-support-role/lesson-3cce36fd.png',
-    socialImageLink: '/humanDAO/lesson/community-support-role/social-efa8d6be.png',
+    kudosImageLink: '/humanDAO/lesson/community-support-role/kudos-922d7695.png',
+    lessonImageLink: '/humanDAO/lesson/community-support-role/lesson-b8d480d5.png',
+    socialImageLink: '/humanDAO/lesson/community-support-role/social-b1c1cada.png',
     learningActions: '',
     marketingDescription: 'Panimula sa tungkulin ng Community Support sa web3',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Panimula sa tungkulin ng Community Support sa web3',
     name: 'Community Support Role',
-    moduleId: '86834c89c79c427a92e6133422ba976c',
+    moduleId: '36835560ea344efea39d206b16821f53',
     quest: 'humanDAOCommunitySupportRole',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: false,
@@ -1487,7 +1475,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'aa0b41cc90f74f058c5de04b1a095a70',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Bakit may pagbabago sa kultura ng internet ang Web3?',
           rightAnswerNumber: 2,
@@ -1502,7 +1490,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '87d32d24dee14d54ac933e92b738da0d',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang bago sa Community Support Role kumpara sa mga tradisyonal na tungkulin?',
           rightAnswerNumber: 4,
@@ -1518,7 +1506,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: 'df8a1668bc614ae29043c90049e75858',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Alin mga aksyon ang hindi makakatulong sa layunin ng isang community support sa organisasyon?',
           rightAnswerNumber: 3,
@@ -1538,19 +1526,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/poap-922d7695.png',
-    lessonImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/lesson-d476da8b.png',
-    socialImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/social-06bff8ab.png',
+    kudosImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/kudos-922d7695.png',
+    lessonImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/lesson-4cd153a5.png',
+    socialImageLink: '/humanDAO/lesson/mga-hakbang-sa-community-resolution/social-f53b34c5.png',
     learningActions: '',
     marketingDescription: 'Alamin ang iba’t-ibang paraan ng community resolution',
-    poapEventId: null,
     kudosId: null,
     duration: 15,
     learnings: '',
     difficulty: undefined,
     description: 'Alamin ang iba’t-ibang paraan ng community resolution',
-    name: 'Mga hakbang sa community resolution',
-    moduleId: '86834c89c79c427a92e6133422ba976c',
+    name: 'Mga hakbang sa Community Resolution',
+    moduleId: '36835560ea344efea39d206b16821f53',
     quest: 'humanDAOMgaHakbangSaCommunityResolution',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: false,
@@ -1560,41 +1547,158 @@ const LESSONS: LessonType[] = [
     notionId: '5c30f3971bed4d389589f22820b7237c',
     slug: 'mga-hakbang-sa-community-resolution',
     imageLinks: [
-      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/anong-klaseng-plataporma-ang-maaaring-gamitin-para-sa-community-support-bcb4c913.png',
-      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/ano-ang-mga-kadalasang-nagagamit-na-features-sa-discord-2b866580.png',
-      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-settings-cf7cb6b8.png',
-      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-settings-0f07aa47.png',
-      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-integrations-9dfab1e1.png'
+      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/unang-hakbang-tukuyin-ang-uri-ng-issue-8c12fe87.png',
+      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikalawang-hakbang-tiyakin-na-totoo-ang-impormasyon-8445db08.png',
+      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikatlong-hakbang-harapin-ang-isyu-4af30bfc.png',
+      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikaapat-na-hakbang-magpasalamat-bago-tapusin-ang-usapan-1befe06c.png',
+      '/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikalimang-hakabang-maghanda-ng-ulat-2771ae83.png'
     ],
     slides: [
       {
         type: 'LEARN',
-        notionId: 'b398903afbda414bbeaa10db779a7033',
-        title: 'Anong klaseng plataporma ang maaaring gamitin para sa Community Support?',
-        content: '<div class="bloc1"><p>Maraming mga komunidad sa web3 ang may itinalagang virtual na lugar para makipag-usap, magbahagi ng mga ideya, at magtrabaho sa mga proyekto. Ang Discord ay isa sa mga kilalang plataporma.</p><p>Iba\'t ibang paraan ng komunikasyon ang maaaring gawin sa Discord, kabilang na rito ang mga text channel, voice channel, at stage channel, kung saan ito ay itinatampok sa isang server. Para gawing maayos ang mga sistema ng bawat komunidad, ang mga admin at moderator ay gumagamit ng bot at iba pang teknolohiya para panatiliin ang kanilang server.</p><p>Ang iba pang mga social media platform tulad ng Twitter, Facebook, Instagram, at Reddit ay kadalasang ginagamit para sa mga anunsyo, paligsahan, at papremyo.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/anong-klaseng-plataporma-ang-maaaring-gamitin-para-sa-community-support-bcb4c913.png\'></div>'
+        notionId: 'ec9159f1798547d0af94417ca18a4351',
+        title: 'Limang hakbang patungo sa Community Resolution',
+        content: '<div class="bloc1"><p>Bakit nga ba natin kailangan lutasin sa mga problem sa komunidad?</p><p>Ang paglutas ng problema ay isang mahalagang kasanayan na kailangang taglayin ng bawat organisasyon kapag namamahala sa isang komunidad. Sa mundo ng online communities, madalas mahirapan ang isang tao sa pag-navigate sa iba\'t ibang lugar gaya ng mga website, application, produkto, at proseso ng komunidad.</p><p>Ngayon, mas magandang maglaan ng oras para mag-accommodate ng mga miyembro ng komunidad dahil marami ang bagong konsepto na nabubuo sa blockchain. Ang pagkakaroon ng Community Support role ay maaaring maging tulay para mas maunawan ng mga sumasali sa komunidad ang mga konseptong ito at ayusin ang mga proseso para magkaroon ng positibong relasyon sa tao.</p><p>Para isakatapuran ito, kami ng ilang alituntunin na may <strong>5 hakbang sa community resolution*</strong></p><p>*Kung ang isang miyembro ay may tanong na wala sa kontrol ng organisasyon, kinakailangang linawin na wala sa iyong kapasidad na lutasin ang problemang iyon, ngunit susubukan mo ang iyong makakaya upang iparamdam sa kanila na naiintindihan sila.</p></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'e51cd03ade324d418430c7b4e404aab3',
-        title: 'Ano ang mga kadalasang nagagamit na features sa Discord?',
-        content: '<div class="bloc1"><p><strong>Application commands</strong></p><p>Nagbibigay-daan ang mga text channel sa mga user na gumamit ng mga command ng application mula sa mga bot gamit ang slash na simbolo <strong>( / )</strong> kasama ang pangalan ng command.</p><p><strong>Pin messages</strong></p><p>Kahit na mayroong channel ng anunsyo, magandang kasanayan ang pag-pin ng mga mensahe gamit ang dropdown na menu sa iba pang mga channel. Makakatulong ito sa iyong i-redirect ang mga miyembro sa mahahalagang mensahe sa halip na ulitin ang mga ito.</p><p><strong>Markdown text</strong></p><p>May mga pagkakataon na gusto mong i-highlight ang ilang text sa isang mensahe. Ang paggamit ng markdown formatting system ay tutulong sa iyo sa paggawa ng mga anunsyo na kapansin-pansin.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/ano-ang-mga-kadalasang-nagagamit-na-features-sa-discord-2b866580.png\'></div>'
+        notionId: 'ad37d000f3ff43d38024b86e6c35682f',
+        title: 'Unang hakbang: Tukuyin ang uri ng issue',
+        content: '<div class="bloc1"><p>Maaari mong ipakilala muna ang iyong sarili, at ipaalam sa kanila na narito ka para tumulong.</p><p>Pagkatapos, maaari kang magtanong tungkol sa paksa ng kanilang isyu at anumang impormasyon na sa tingin nila ay kumplikadong maunawaan. Ito ang oras upang mangalap ng impormasyon tulad ng pangalan ng tao, email address, username, mga screenshot, at kategorya ng isyu. </p><p>Ilan sa mga halimbawa nito ang pamamaraan ng pag kategorya:</p><ul><li><strong>Klase ng isyu: </strong>Reports for Scams, Spams, and Bug</li><li><strong>Request: </strong>Collaboration, Feature Request, and Service Request</li><li><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Departamento: </strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong>Design, Development, Governance</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/unang-hakbang-tukuyin-ang-uri-ng-issue-8c12fe87.png\'></div>'
       },
       {
         type: 'LEARN',
-        notionId: '1ff59e181a524a91ae066312f7398443',
-        title: 'Discord: Server settings',
-        content: '<div class="bloc1"><p>Bilang bahagi ng Community Support team, mayroon kang access sa ilang partikular na setting sa server ng Discord.</p><p>Ang mga seksyon sa ibaba ay magbibigay sa iyo ng ideya kung anong data ang maaaring baguhin at kung paano i-customize ang mga pahintulot:</p><ul><li><strong>Overview</strong> - pangalan ng server, banner, at background ng imbitasyon. Kasama rin ang channel ng mga mensahe ng system</li><li><strong>Roles</strong> - paglikha ng mga pangalan ng tungkulin, mga default na pahintulot, at hierarchy ng mga tungkulin. Ang tungkulin na may pinakamataas na pahintulot ay nasa itaas ng listahan, at maaari itong i-drag pataas o pababa upang baguhin ang hierarchy.</li><li><strong>Integrations </strong>- Naka-configure ang bot/app na mga command at permissions sa setting na ito. Dito rin maaaring i-set up ang listahan ng mga fina-follow na channel.</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-settings-cf7cb6b8.png\'></div>'
+        notionId: '0b3e63408be94baab10a250a28e5e310',
+        title: '<strong><strong>Ikalawang hakbang: Tiyakin na totoo ang impormasyon</strong></strong>',
+        content: '<div class="bloc1"><p>Pagkatapos mangolekta ng datos, mahalagang tiyakin na ang data ay tumpak at totoo. Karamihan sa mga komunidad ay gumagamit ng isang platform o karagdagang mga tool upang suriin ang pagkakakilanlan ng isang tao.</p><p>Ilan sa mga ito ay ang</p><ul><li><strong>Community Database</strong> - para alamin ang karagdagang impormasyon sa tao</li><li><strong>Member List</strong> - para maberipika ang role o departamento na kinabibilangan</li><li><strong>Search Bar</strong> - para maghanap ng partikular na keyword</li><li><strong>Audit Logs</strong> - para i-trace ang pinanggalingan ng isyu</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikalawang-hakbang-tiyakin-na-totoo-ang-impormasyon-8445db08.png\'></div>'
       },
       {
         type: 'LEARN',
-        notionId: '4ce5dc30149b45afa168ebeae6807f7d',
-        title: 'Discord: Server settings',
-        content: '<div class="bloc1"><ul><li><strong>Rules Screening </strong>- Kailangan lamang i-enable ang community setting para maglagay ng panuntunan at regulasyon na makikita ng bagong miyembro na sasali sa server.</li><li><strong>Safety Setup</strong> - kasama ang mga antas ng pag-verify para sa mga miyembrong sasali sa isang server</li> <ul><li>None - Walang restrictions</li><li>Low - verified email</li><li>Medium - Naka-register ng 5 minuto.</li><li>High - Member ng server sa loob ng 10 minuto</li><li>Highest - Verified ang email at phone number</li></ul> <li><strong>Audit Log</strong> - dito ang mga server actions pag-filter ayon sa member at <em>type of action</em>.</li><li><strong>Members</strong> - ipinapakita ang kabuuang bilang ng mga miyembro, na maaaring i-filter ayon sa <em>role</em>. </li><li><strong>Invites </strong>- dito makikita ang bawat bilang <em>invites</em> ng miyembro. Limitado ang maaaring gamitin na invite link, kaya mainam na magbawas kapag dumami ang nag-invite sa server.</li><li><strong>Bans</strong> - Ang mga miyembro na <em>banned</em> ay naka base sa kanilang IP address at account. </li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-settings-0f07aa47.png\'></div>'
+        notionId: '9b08fa45b726488da75857498918bf2b',
+        title: 'Ikatlong hakbang: Harapin ang isyu',
+        content: '<div class="bloc1"><p>Kapag natuklasan mo na ang dahilan nito, oras na para gamitin ang mga online resources na ginagamit sa isang organisasyon para lutasin ang problema.</p><p>Kung hindi pa rin ito nauunawaan, maaaring gawin ang mga hakbang na ito:</p><ol><li>Klaruhin ang konteksto</li><li>Gumamit ng positibong salita</li><li>Maging totoo sa resulta o impormasyon na ipapakita</li></ol></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikatlong-hakbang-harapin-ang-isyu-4af30bfc.png\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'cf8df84d1c0e43669cdea624fe398e15',
+        title: 'Ikaapat na hakbang: Magpasalamat bago tapusin ang usapan',
+        content: '<div class="bloc1"><p>Dapat magkaroon ng beripikasyon kung nakatulong ang pakikipag usap natin sa isang miyembro. Pwede mong sabihin, <strong>“Maraming salamat po sa inyong oras. Kung mayroon pa akong maitutulong sa inyo, nandito lang po ako</strong>.”</p><p>Kung ang isyu ay hindi pa nalutas, maaaring tumagal ng ilang oras upang makahanap ng bagong solusyon. Sa kasong ito, maaari mong sabihin ang na, <strong>\'Pasensya na po. Kailangan ko lang i-escalate ang isyung ito sa aming team lead para mas matugunan ang isyu na ito.\'</strong></p><p>Tiyakin natin na magalang at may positibong impresyon sa kanila ang iyong pakikipag-usap. Maaari mo ring payagan ang mga miyembro na i-rate ang transaksyon upang mabigyan kayo ng feedback.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikaapat-na-hakbang-magpasalamat-bago-tapusin-ang-usapan-1befe06c.png\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '1f242ec76ea74b88821a708ee56afe3c',
+        title: 'Ikalimang hakabang: Maghanda ng ulat',
+        content: '<div class="bloc1"><p>Ang pagtatala ng mga ticket o pag-uusap sa organisasyon ay mahalaga. Ito ay magagamit mo upang mas mapabilis ang paglutas ng isyu kung sakaling umulit ito. Maaari kang mag authorize ng ticketing bot o mga help desk system sa iyong server para isagawa ito.</p><p>Kinakailangan na maghanda ng isang ulat at ilista ang mga partikular na punto ng problema kung galing ito sa iba’t-ibang miyembro ng komunidad. Mayroon ding mga tool na makakatulong sa iyong bumuo ng mga ulat sa reports tulad ng number of tickets closed per day, average response time, at satisfaction rate.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/ikalimang-hakabang-maghanda-ng-ulat-2771ae83.png\'></div>'
       },
       {
         type: 'QUIZ',
-        notionId: '9a9cd7d9af174be3b65e9cafe87aa4b0',
-        title: 'Pagsusuri',
+        notionId: '0f1b3eea296d46ea8ab10e5489d85a18',
+        title: 'Pagsusulit',
+        quiz: {
+          question: 'Saan magandang mag beripika ng mga nakaraang aktibidad sa server?',
+          rightAnswerNumber: 1,
+          answers: [
+            'Audit logs',
+            'Archive',
+            'Community Database',
+            'Member List'
+          ],
+          id: 'mga-hakbang-sa-community-resolution-1'
+        }
+      },
+      {
+        type: 'QUIZ',
+        notionId: 'be1ada826a3c4a40b1acda7cfa3ce33e',
+        title: 'Pagsusulit',
+        quiz: {
+          question: 'Tama o mali: Hindi kailangan ng feedback sa mga tinugunang isyu',
+          rightAnswerNumber: 2,
+          answers: [
+            'Tama',
+            'Mali'
+          ],
+          id: 'mga-hakbang-sa-community-resolution-2'
+        }
+      },
+      {
+        type: 'QUIZ',
+        notionId: '2fd73cee42d9427f9f569dc35cdeea7e',
+        title: 'Pagsusulit',
+        quiz: {
+          question: 'Bakit kailangan gumawa ng talaan ng mga tinugunang isyu',
+          rightAnswerNumber: 4,
+          answers: [
+            'Para mas mapabilis ang paglulutas ng problema',
+            'Para mabigyan ng mas wastong impormasyon ang organisasyon sa susunod na problema',
+            'Para ma-automate ang pagresolba sa umuulit na isyu',
+            'Lahat ng mga nabanggit'
+          ],
+          id: 'mga-hakbang-sa-community-resolution-3'
+        }
+      },
+      {
+        type: 'END',
+        title: 'End of lesson'
+      }
+    ]
+  },
+  {
+    kudosImageLink: '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/kudos-922d7695.png',
+    lessonImageLink: '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/lesson-a831d0e1.png',
+    socialImageLink: '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/social-72eaa996.png',
+    learningActions: '',
+    marketingDescription: 'Pagtalakay ng napapanahong online tools',
+    kudosId: null,
+    duration: 20,
+    learnings: '',
+    difficulty: undefined,
+    description: 'Pagtalakay ng napapanahong online tools',
+    name: 'Online Tools para sa Moderation at Collaboration',
+    moduleId: '36835560ea344efea39d206b16821f53',
+    quest: 'humanDAOOnlineToolsParaSaModerationAtCollaboration',
+    publicationStatus: 'publish',
+    isFeaturedOnHomepage: false,
+    isCommentsEnabled: true,
+    endOfLessonRedirect: null,
+    endOfLessonText: undefined,
+    notionId: '487d45837a7148a8a5e346c5aa392b5f',
+    slug: 'online-tools-para-sa-moderation-at-collaboration',
+    imageLinks: [
+      '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/anong-klaseng-plataporma-ang-maaaring-gamitin-para-sa-community-support-707773bf.png',
+      '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/ano-ang-mga-kadalasang-nagagamit-na-features-sa-discord-b263cd98.png',
+      '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-settings-0539cca1.png',
+      '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-settings-7c203951.png',
+      '/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-integrations-e7178362.png'
+    ],
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: '896bc35484774c818d75bbb4773b62dc',
+        title: 'Anong klaseng plataporma ang maaaring gamitin para sa Community Support?',
+        content: '<div class="bloc1"><p>Maraming mga komunidad sa web3 ang may itinalagang virtual na lugar para makipag-usap, magbahagi ng mga ideya, at magtrabaho sa mga proyekto. Ang Discord ay isa sa mga kilalang plataporma.</p><p>Iba\'t ibang paraan ng komunikasyon ang maaaring gawin sa Discord, kabilang na rito ang mga text channel, voice channel, at stage channel, kung saan ito ay itinatampok sa isang server. Para gawing maayos ang mga sistema ng bawat komunidad, ang mga admin at moderator ay gumagamit ng bot at iba pang teknolohiya para panatiliin ang kanilang server.</p><p>Ang iba pang mga social media platform tulad ng Twitter, Facebook, Instagram, at Reddit ay kadalasang ginagamit para sa mga anunsyo, paligsahan, at papremyo.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/anong-klaseng-plataporma-ang-maaaring-gamitin-para-sa-community-support-707773bf.png\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '00ca672c2ee242df9eb75d2440ac7d98',
+        title: 'Ano ang mga kadalasang nagagamit na features sa Discord?',
+        content: '<div class="bloc1"><p><strong>Application commands</strong></p><p>Nagbibigay-daan ang mga text channel sa mga user na gumamit ng mga command ng application mula sa mga bot gamit ang slash na simbolo <strong>( / )</strong> kasama ang pangalan ng command.</p><p><strong>Pin messages</strong></p><p>Magandang kasanayan ang pag-pin ng mga mensahe gamit ang dropdown na menu sa iba pang mga channel. Makakatulong ito sa iyong i-redirect ang mga miyembro sa mahahalagang mensahe sa halip na ulitin ang mga ito.</p><p><strong>Markdown text</strong></p><p>May mga pagkakataon na gusto mong i-highlight ang ilang text sa isang mensahe. Ang paggamit ng markdown formatting system ay tutulong sa iyo sa paggawa ng mga anunsyo na kapansin-pansin.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/ano-ang-mga-kadalasang-nagagamit-na-features-sa-discord-b263cd98.png\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'ebf31eb79bf44b68a6bd6b214a75292b',
+        title: 'Discord: Server settings',
+        content: '<div class="bloc1"><p>Bilang bahagi ng Community Support team, mayroon kang access sa ilang partikular na setting sa server ng Discord.</p><p>Ang mga seksyon sa ibaba ay magbibigay sa iyo ng ideya kung anong data ang maaaring baguhin at kung paano i-customize ang mga pahintulot:</p><ul><li><strong>Overview</strong> - pangalan ng server, banner, at background ng imbitasyon. Kasama rin ang channel ng mga mensahe ng system</li><li><strong>Roles</strong> - paglikha ng mga pangalan ng tungkulin, mga default na pahintulot, at hierarchy ng mga tungkulin. Ang tungkulin na may pinakamataas na pahintulot ay nasa itaas ng listahan, at maaari itong i-drag pataas o pababa upang baguhin ang hierarchy.</li><li><strong>Integrations </strong>- Naka-configure ang bot/app na mga command at permissions sa setting na ito. Dito rin maaaring i-set up ang listahan ng mga fina-follow na channel.</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-settings-0539cca1.png\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'e29a4c54eb4942908fc33f2161e7e25f',
+        title: 'Discord: Server settings',
+        content: '<div class="bloc1"><ul><li><strong>Rules Screening </strong>- Kailangan lamang i-enable ang community setting para maglagay ng panuntunan at regulasyon na makikita ng bagong miyembro na sasali sa server.</li><li><strong>Safety Setup</strong> - kasama ang mga antas ng pag-verify para sa mga miyembrong sasali sa isang server</li> <ul><li>None - Walang restrictions</li><li>Low - verified email</li><li>Medium - Naka-register ng 5 minuto.</li><li>High - Member ng server sa loob ng 10 minuto</li><li>Highest - Verified ang email at phone number</li></ul> <li><strong>Audit Log</strong> - dito ang mga server actions pag-filter ayon sa member at <em>type of action</em>.</li><li><strong>Members</strong> - ipinapakita ang kabuuang bilang ng mga miyembro, na maaaring i-filter ayon sa <em>role</em>. </li><li><strong>Invites </strong>- dito makikita ang bawat bilang <em>invites</em> ng miyembro. Limitado ang maaaring gamitin na invite link, kaya mainam na magbawas kapag dumami ang nag-invite sa server.</li><li><strong>Bans</strong> - Ang mga miyembro na <em>banned</em> ay naka base sa kanilang IP address at account. </li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-settings-7c203951.png\'></div>'
+      },
+      {
+        type: 'QUIZ',
+        notionId: 'd482c2a5f88f4c1684dfba7e4cabfb22',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Sa mga text channel, anong character ang ini-input mo para ma-access ang isang partikular na command?',
           rightAnswerNumber: 4,
@@ -1604,13 +1708,13 @@ const LESSONS: LessonType[] = [
             '-',
             '/'
           ],
-          id: 'mga-hakbang-sa-community-resolution-1'
+          id: 'online-tools-para-sa-moderation-at-collaboration-1'
         }
       },
       {
         type: 'QUIZ',
-        notionId: '7b84606179954b16a79f6ea8a48ef6a9',
-        title: 'Pagsusuri',
+        notionId: '85016fc4e3bb4c938b3116aa6720eee2',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Aling bahagi ng <em>server settings</em> ang nagpapahintulot sa iyo na magbigay ng mga partikular na permissions sa iba\'t ibang indibidwal?',
           rightAnswerNumber: 1,
@@ -1620,13 +1724,13 @@ const LESSONS: LessonType[] = [
             'Roles',
             'Members'
           ],
-          id: 'mga-hakbang-sa-community-resolution-2'
+          id: 'online-tools-para-sa-moderation-at-collaboration-2'
         }
       },
       {
         type: 'QUIZ',
-        notionId: '71cd863d6d3641ee847693450a62508a',
-        title: 'Pagsusuri',
+        notionId: 'dbba6eaba74d4fffb2b4ce88a3f25dce',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Saan mo mahahanap ang mga aksyon na ginawa sa server?',
           rightAnswerNumber: 3,
@@ -1636,49 +1740,49 @@ const LESSONS: LessonType[] = [
             'Audit Logs',
             'Data Logs'
           ],
-          id: 'mga-hakbang-sa-community-resolution-3'
+          id: 'online-tools-para-sa-moderation-at-collaboration-3'
         }
       },
       {
         type: 'LEARN',
-        notionId: '70ad2b512e764f1dbcfeccb83bdf0b73',
+        notionId: 'bdfe15188149428c9359dafd63ba86fa',
         title: 'Discord: Server integrations',
-        content: '<div class="bloc1"><p><strong>Ano ang mga Discord bots?</strong></p><p>Tinuturing silang integrations sa loob ng server para i-automate ang mga prosesong ito (at iba pang mga hindi nabanggit):</p><ul><li>Moderation</li><li>Verification </li><li>Productivity</li><li>Management</li><li>Entertainment</li></ul><p>Para malaman kung paano gamitin ang iba’t-ibang bots sa Discord, mainam na simulang pumunta sa website ng kumpanya o developer na gumawa ng bot. Pagkatapos nito ay maaari nilang basahin ang documentation na ang nilalaman ay komprehensibong gabay sa command lists, dashboard configurations, at ang operational status nito.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/mga-hakbang-sa-community-resolution/discord-server-integrations-9dfab1e1.png\'></div>'
+        content: '<div class="bloc1"><p><strong>Ano ang mga Discord bots?</strong></p><p>Tinuturing silang integrations sa loob ng server para i-automate ang mga prosesong ito (at iba pang mga hindi nabanggit):</p><ul><li>Moderation</li><li>Verification </li><li>Productivity</li><li>Management</li><li>Entertainment</li></ul><p>Para malaman kung paano gamitin ang iba’t-ibang bots sa Discord, mainam na simulang pumunta sa website ng kumpanya o developer na gumawa ng bot. Pagkatapos nito ay maaari nilang basahin ang documentation na ang nilalaman ay komprehensibong gabay sa command lists, dashboard configurations, at ang operational status nito.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/online-tools-para-sa-moderation-at-collaboration/discord-server-integrations-e7178362.png\'></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'aa7ff57f484f4ec8ba1d9dcbb86b3bd7',
+        notionId: '6e07f1138540455a9f7c7ba2b09cdb43',
         title: 'Anong Discords bots ang maaaring gamitin? (1/5)',
         content: '<div class="bloc1"><p>Importateng makahanap ng angkop na bot sa pagpapanatili ng maayos na operasyon at komunidad.</p><p>Narito ang ilan sa mga bot na maaari mong i-consider:</p><p><strong>Moderation Bots:</strong> MEE6, Carl-bot, YAGPDB, Arcane</p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Ang pagbati sa mga bagong sali gamit ng welcome card at custom messaging</li><li>Ang pakikipag-ugnayan base sa parehong interes gamit ng reaction roles, commands, atbp.</li><li>Ang pag-stream ng online event at pag-upload nito sa server gamit ng social connectors</li><li>Ang pagkamit ng bagong ranggo gamit ng XP at levelling system </li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Ang mga bot ay maaaring palitan ng pangalan upang umangkop sa branding ng komunidad</li><li>Nangangailangan lang ang auto-moderation na i-set up nang isang beses. Maaaring i-configure rin ito upang gumana sa ilang channel na exclusive lamang sa mga may priority.</li><li>Ang paggamit ng buwanang subscription ay magbibigay ng dagdag sa features para mas mapadali ang proseso ng pag-manage ng gated channels</li></ol></div>'
       },
       {
         type: 'LEARN',
-        notionId: '958f2a11ab8f45c7b6f25398b8fbcf79',
+        notionId: 'c93bc62a56c7498f89f8453732f8f8fd',
         title: 'Anong Discords bots ang maaaring gamitin? (2/5)',
         content: '<div class="bloc1"><p>Dahil karamihan ng mga NFT projects ay nangangailangan ng Discord server sa pag-manage ng komunidad, mahalagang maging handa sa pag</p><p>Narito ang ilan sa mga bot na maaari mong i-consider para sa sitwasyong ito:</p><p><strong>Verification Bots:</strong> Collab.Land, Vulcan Bot</p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Sa Vulcan Bot, maaaring i-verify ng mga miyembro ang kanilang pagmamay-ari ng NFT nang hindi pumipirma ng transaksyon gamit ang kanilang wallet</li><li>Sa Collab.Land, maaaring i-verify ng mga miyembro ang kanilang pagmamay-ari ng NFT sa pamamagitan ng paglalagay ng custom na link sa kanilang wallet</li><li>Maa-access ng mga na-verify na miyembro ang mga eksklusibong channel sa Discord para makakita ng mga anunsyo, magbigay ng mga feedback, at kumonekta sa mga tao</li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Ang pagtatalaga ng tungkulin sa mga na-verify na may-ari ng NFT ay maaaring i-automate ng bot</li><li>Ang mga potensyal na masamang aktor na hindi pumasa sa pag-verify ay awtomatikong aalisin sa server</li></ol></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'aa100e1369364862a24a9efe2e2b85f6',
+        notionId: '2849999006004671961fd4dd99a31443',
         title: 'Anong Discords bots ang maaaring gamitin? (3/5)',
         content: '<div class="bloc1"><p>Ang pag-set up ng Discord server ay mahirap na trabaho. Ang pag-post ng mga update mula sa maraming mga channel sa social media ay mas nakakaubos ng oras kapag ginawa nang manu-mano. Ang paggamit ng mga bot na maaaring isama ang iyong tech stack ay makakatulong sa iyo at sa iyong mga miyembro ng komunidad na mag-navigate sa platform nang madali at panatilihing positibo ang pakikipag-ugnayan. Narito ang ilan sa mga bot na maaari mong i-consider para sa sitwasyong ito:</p><p><strong>Productivity Bots:</strong> Boto, Sesh, Statbot, Autocode</p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Sa Boto, madaling maabisuhan ang mga miyembro ng mga update tungkol sa proyekto ng NFT mula sa maraming channel sa social media sa pamamagitan ng pagpapagana ng mga notification na partikular sa channel sa Discord</li><li>Sa Sesh, pinasimpleng karanasan sa paglikha ng kaganapan para sa mga miyembrong naninirahan sa iba\'t ibang timezone</li><li>Sa Statbot, makikita ng mga miyembro ang isang pangkalahatang-ideya kung gaano kalaki ang impluwensya ng isang organisasyon o artist</li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Sa Boto, ang mga update para sa NFT mints at mga benta, whale wallet, at mga listahan ay maaaring mai-post sa Discord, Slack, at Telegram nang walang pagsulat ng anumang code</li><li>Sa Sesh, magiging madaling makuha ang listahan ng mga dadalo at isama ang mga iskedyul ng kaganapan sa Google calendar</li><li>Sa Autocode, ang mga bot ay maaaring mabuo na may kaunting kaalaman sa Javascript upang mag-set up ng anumang mga custom na command o pagsasama sa ibang mga platform</li></ol></div>'
       },
       {
         type: 'LEARN',
-        notionId: '5715658e8457400ca455a12bb58ffd81',
+        notionId: '29998363d6994d1da5e6b478040c24e7',
         title: 'Anong Discords bots ang maaaring gamitin? (4/5)',
-        content: '<div class="bloc1"><p>Isa sa mga pamantayan ng maayos na Community Support team ay ang pagsagot ng mga tanong ng komunidad sa tamang oras. Mas mararamdaman ng mga miyembro ang suporta ng isang organisasyon kapag sila ay mabilis tumugon sa chat o handang magbigay ng impormasyon gamit ang automated responses.</p><p>INarito ang ilan sa mga bot na maaari mong i-consider para sa sitwasyong ito:</p><p><strong>Support Bots</strong><strong>:</strong> TicketTool, Helper.gg </p><p><strong>How it can help your community</strong></p><ol><li>Maaaring pumili ng kategorya kapag magbubukas ng ticket</li><li>Pribado at ligtas ang pag-uusap kapag may concern. Maaari rin kumuha ng kopya ng ticket.</li><li>Maaaring gumamit ng keywords sa Discord commands para makuha ang hinahanap na impormasyon</li></ol><p><strong>How it can help the Community Support team</strong></p><ol><li>Pwedeng mag-customize ng ticket gamit ang panel colors, names, and description para gawin organisado ang iba’t ibang kategorya ng ticket.</li><li>Nalilimit ang tickets sa role na meron ang isang user.</li><li>Mas madaling makita ang paksa ng isang ticket dahil sa pangalan na pwede i-set dito.</li></ol></div>'
+        content: '<div class="bloc1"><p>Isa sa mga pamantayan ng maayos na Community Support team ay ang pagsagot ng mga tanong ng komunidad sa tamang oras. Mas mararamdaman ng mga miyembro ang suporta ng isang organisasyon kapag sila ay mabilis tumugon sa chat o handang magbigay ng impormasyon gamit ang automated responses.</p><p>INarito ang ilan sa mga bot na maaari mong i-consider para sa sitwasyong ito:</p><p><strong>Support Bots</strong><strong>:</strong> TicketTool, Helper.gg </p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Maaaring pumili ng kategorya kapag magbubukas ng ticket</li><li>Pribado at ligtas ang pag-uusap kapag may concern. Maaari rin kumuha ng kopya ng ticket.</li><li>Maaaring gumamit ng keywords sa Discord commands para makuha ang hinahanap na impormasyon</li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Pwedeng mag-customize ng ticket gamit ang panel colors, names, and description para gawin organisado ang iba’t ibang kategorya ng ticket.</li><li>Nalilimit ang tickets sa role na meron ang isang user.</li><li>Mas madaling makita ang paksa ng isang ticket dahil sa pangalan na pwede i-set dito.</li></ol></div>'
       },
       {
         type: 'LEARN',
-        notionId: '5c0fd9b0bedf4905b6b4f523f1add7d5',
+        notionId: '33f3c4d03aab4c72a094d9cf3b614180',
         title: 'Anong Discords bots ang maaaring gamitin? (5/5)',
-        content: '<div class="bloc1"><p>Ang pag-set up ng Discord server ay mahirap na trabaho. Ang pag-post ng mga update mula sa maraming channel sa social media ay mas nakakaubos ng oras kapag ginawa nang manu-mano. Ang paggamit ng mga bot na maaaring isama ang iyong tech stack ay makakatulong sa iyo at sa iyong mga komunidad na mag-navigate sa platform nang madali at panatilihing positibo ang pakikipag-ugnayan. Narito ang ilan sa mga bot na maaari mong simulan-alang para sa sitwasyong:</p><p><strong>Productivity Bots:</strong> Boto, Sesh, Statbot, Autocode</p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Sa Boto, madaling maabisuhan ang mga miyembro ng mga update tungkol sa proyekto ng NFT mula sa maraming channel sa social media sa pamamagitan ng pagpapagana ng mga notification na partikular sa channel ng Discord</li><li>Sa Sesh, pinasimpleng karanasan sa paglikha ng kaganapan para sa mga miyembrong naninirahan sa iba pang timezone</li><li>Sa Statbot, makikita ng mga miyembro ang pangkalahatang ideya kung gaano kalaki ang impluwensya ng isang organisasyon o artist</li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Sa Boto, ang mga update para sa NFT mints at mga benta, whale wallet, at mga listahan ay maaaring mai-post sa Discord, Slack, at Telegram nang walang pagsulat ng anumang code</li><li>Sa Sesh, magiging madaling makuha ang listahan ng mga dadalo at isama ang mga kaganapan ng kaganapan sa Google calendar</li><li>Sa Autocode, ang mga bot ay maaaring mabuo na may kaunting kaalaman sa Javascript upang i-set up ang anumang custom na command o pagsasama sa ibang mga platform</li></ol></div>'
+        content: '<div class="bloc1"><p>Ang pag-set up ng Discord server ay mahirap na trabaho. Ang pag-post ng mga update mula sa maraming channel sa social media ay mas nakakaubos ng oras kapag ginawa nang manu-mano. Ang paggamit ng mga bot na maaaring isama ang iyong tech stack ay makakatulong sa iyo at sa iyong mga komunidad na mag-navigate sa platform nang madali at panatilihing positibo ang pakikipag-ugnayan. Narito ang ilan sa mga bot na maaari mong simulan-alang para sa sitwasyong:</p><p><strong>Productivity Bots:</strong> Boto, Sesh, Statbot, Autocode</p><p><strong>Paano ito makakatulong sa iyong komunidad</strong></p><ol><li>Sa Boto, madaling maabisuhan ang mga miyembro ng mga update tungkol sa proyekto ng NFT mula sa maraming channel sa social media sa pamamagitan ng pagpapagana ng mga notification na partikular sa channel ng Discord</li><li>Sa Sesh, pinasimpleng karanasan sa paglikha ng kaganapan para sa mga miyembrong naninirahan sa iba pang timezone</li><li>Sa Statbot, makikita ng mga miyembro ang pangkalahatang ideya kung gaano kalaki ang impluwensya ng isang organisasyon o artist</li></ol><p><strong>Paano ito makakatulong sa Community Support team</strong></p><ol><li>Sa Boto, ang mga update para sa NFT mints at mga benta, whale wallet, at mga listahan ay maaaring mai-post sa Discord, Slack, at Telegram nang walang pagsulat ng anumang code</li><li>Sa Sesh, magiging madaling makuha ang listahan ng mga dadalo at isama ang mga kaganapan ng kaganapan sa Google calendar</li><li>Sa Autocode, ang mga bot ay maaaring mabuo na may kaunting kaalaman sa Javascript upang i-set up ang anumang custom na command</li></ol></div>'
       },
       {
         type: 'QUIZ',
-        notionId: 'f3864c6f945e4352939312f0a0779cc1',
-        title: 'Pagsusuri',
+        notionId: 'ab2341f8a9374e2ab25389e2948a417c',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Aling bot ang makakatulong sa Community Support team na magbigay ng mga update sa NFT sales/mints?',
           rightAnswerNumber: 3,
@@ -1688,13 +1792,13 @@ const LESSONS: LessonType[] = [
             'Boto',
             'Vulcan Bot'
           ],
-          id: 'mga-hakbang-sa-community-resolution-4'
+          id: 'online-tools-para-sa-moderation-at-collaboration-4'
         }
       },
       {
         type: 'QUIZ',
-        notionId: '19904addea21439187cac31807cb9c20',
-        title: 'Pagsusuri',
+        notionId: '308fa05b4e8b412bbf936b8302472259',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Aling uri ng mga bot ang nagtitiyak na natutugunan ang mga problema sa komunidad sa tamang oras?',
           rightAnswerNumber: 2,
@@ -1704,13 +1808,13 @@ const LESSONS: LessonType[] = [
             'Entertainment bots',
             'Moderation bots'
           ],
-          id: 'mga-hakbang-sa-community-resolution-5'
+          id: 'online-tools-para-sa-moderation-at-collaboration-5'
         }
       },
       {
         type: 'QUIZ',
-        notionId: 'daf253c9ea67400e9b6c1e9b8d601877',
-        title: 'Pagsusuri',
+        notionId: '8c61250dfe854ee68987e0a64810d8c2',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Maaari mo bang i-verify ang pagmamay-ari ng NFT nang walang koneksyon sa wallet gamit ang Vulcan bot?',
           rightAnswerNumber: 1,
@@ -1718,13 +1822,13 @@ const LESSONS: LessonType[] = [
             'Yes',
             'No'
           ],
-          id: 'mga-hakbang-sa-community-resolution-6'
+          id: 'online-tools-para-sa-moderation-at-collaboration-6'
         }
       },
       {
         type: 'QUIZ',
-        notionId: '8c6fe919bda244f6a654b98dba60b95f',
-        title: 'Pagsusuri',
+        notionId: 'c99d4b2ba6a448fc89b35d27a7bcd68e',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Anong services ang maaari mong i-streamline sa Sesh bot?',
           rightAnswerNumber: 2,
@@ -1734,37 +1838,37 @@ const LESSONS: LessonType[] = [
             'Ranking system',
             'Custom welcome messages'
           ],
-          id: 'mga-hakbang-sa-community-resolution-7'
+          id: 'online-tools-para-sa-moderation-at-collaboration-7'
         }
       },
       {
         type: 'LEARN',
-        notionId: 'e8622e00e9cc4b7ab3511ba43c483d5c',
+        notionId: '23320fcab2a5466ea12c4c52f3f8849d',
         title: 'Anong online tools ang magandang gamitin sa workplace<strong>? (1/4)</strong>',
-        content: '<div class="bloc1"><p>Sa isang desentralisadong lugar ng trabaho, ang mga online na tool ay karaniwang ginagamit upang magawa ang mga proyekto kahit na sa isang malayong setting. Ito ang ilan sa mga pinakamahusay na tool—sa web2 at web3—upang buuin ang iyong tech stack at gumana nang walang putol sa mga miyembro mula sa iba\'t ibang team o departamento.</p><h2><strong>Notion (</strong> <a href=\'https://www.notion.so/\'>https://www.notion.so</a>)</h2><p>Ang Notion ay isang online na workspace kung saan maaari kang kumuha ng mga tala, bumuo ng database, gumawa ng mga kanban board para sa iyong mga listahan ng gagawin, at makipagtulungan sa mga kapantay para sa mga gawain sa pamamahala ng proyekto. Magagamit ito upang makita kung ano ang ginagawa ng ibang mga departamento at para i-update ang pag-unlad na ginawa mula sa iyong pagtatapos.</p><h2><strong>Google Workspace (</strong><a href=\'https://workspace.google.com/\'>https://workspace.google.com</a>)</h2><p>Ang Google Workspace ay maraming tool sa pagiging produktibo—kabilang ang email, kalendaryo, video call, mga dokumento, spreadsheet, at isang cloud storage kung saan maaaring i-sync ang lahat ng data mula sa mga productivity app. Ang pagbabahagi ng file ay isa sa mga pangunahing tampok na ginagamit upang pagsamahin ang mga ideya at pagbabago sa isang dokumento.</p><h2><strong>Figma (</strong><a href=\'https://www.figma.com/\'>https://www.figma.com</a>)</h2><p>Ang Figma ay isang graphics-editing at prototyping tool na ginagamit upang lumikha ng mga digital na disenyo at likhang sining. Posibleng makipagtulungan sa mga kapantay dito sa pamamagitan ng pagbabahagi ng access sa file. Para sa mga tungkulin sa suporta sa komunidad, ang pagkakaroon ng kaalaman sa pag-navigate sa tool na ito ay makakatulong sa pagtulong sa mga maliliit na pagbabago sa mga post sa social media.</p></div>'
+        content: '<div class="bloc1"><p>Sa isang desentralisadong lugar ng trabaho, ang mga online na tool ay karaniwang ginagamit upang magawa ang mga proyekto kahit na sa isang malayong setting. Ito ang ilan sa mga pinakamahusay na tool—sa web2 at web3—upang buuin ang iyong tech stack at gumana nang walang putol sa mga miyembro mula sa iba\'t ibang team o departamento.</p><h2><strong>Notion (</strong> <a href=\'https://www.notion.so/\'>https://www.notion.so</a>)</h2><p>Ang Notion ay isang online na workspace kung saan maaari kang kumuha ng mga tala, bumuo ng database, gumawa ng mga kanban board para sa iyong mga listahan ng gagawin, at makipagtulungan sa mga kapantay para sa mga gawain sa pamamahala ng proyekto. Magagamit ito upang makita kung ano ang ginagawa ng ibang mga departamento at para i-update ang pag-unlad na ginawa mula sa iyong pagtatapos.</p><h2><strong>Google Workspace (</strong><a href=\'https://workspace.google.com/\'>https://workspace.google.com</a>)</h2><p>Ang Google Workspace ay maraming serbisyo kabilang na ang email, calendar management, video call, mga dokumento, spreadsheet, at isang cloud storage kung saan maaaring i-sync ang lahat ng data mula sa mga productivity app. Ang pagbabahagi ng file ay isa sa mga pangunahing tampok na ginagamit upang pagsamahin ang mga ideya at pagbabago sa isang dokumento.</p><h2><strong>Figma (</strong><a href=\'https://www.figma.com/\'>https://www.figma.com</a>)</h2><p>Ang Figma ay isang graphics-editing at prototyping tool na ginagamit upang lumikha ng mga digital na disenyo at likhang sining. Posibleng makipagtulungan sa mga kapantay dito sa pamamagitan ng pagbabahagi ng access sa file. Para sa mga tungkulin sa suporta sa komunidad, ang pagkakaroon ng kaalaman sa pag-navigate sa tool na ito ay makakatulong sa pagtulong sa mga maliliit na pagbabago sa mga post sa social media.</p></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'c0a24c3637424f1e85b571b0d1871b2b',
+        notionId: '6cec77ee17e94c64acfe2528e7ce1a93',
         title: 'Anong online tools ang magandang gamitin sa workplace<strong>? (2/4)</strong>',
-        content: '<div class="bloc1"><h2><strong>Trello (</strong><a href=\'https://trello.com/\'>https://trello.com</a>)</h2><p>Ang Trello ay ang visual na tool sa pamamahala ng trabaho na nagbibigay kapangyarihan sa mga team na mag-ideya, magplano, mamahala, at magdiwang ng kanilang trabaho nang magkasama sa isang collaborative, produktibo, at organisadong paraan. Ang isang board ay kumakatawan sa isang lugar upang subaybayan ang impormasyon — madalas para sa malalaking proyekto, koponan, o daloy ng trabaho.</p><h2><strong>Miro (</strong><a href=\'https://miro.com/\'>https://miro.com</a>)</h2><p>Ang Miro ay isang online na collaborative na whiteboard platform na nagbibigay-daan sa mga distributed team na epektibong magtrabaho nang sama-sama, mula sa brainstorming gamit ang digital sticky notes hanggang sa pagpaplano at pamamahala ng maliksi na daloy ng trabaho. Sa Miro, maaari kang mag-organisa ng mga team, proyekto, at board para magtrabaho sa mga dokumento at lumikha ng mga lohikal na koneksyon upang bumuo ng mga ideya. Ang ilang mga kaso ng paggamit ng Miro ay kinabibilangan ng mga workshop, pananaliksik, pagsusuri, at paggawa ng mga mapa ng isip o diagram.</p></div>'
+        content: '<div class="bloc1"><h2><strong>Trello (</strong><a href=\'https://trello.com/\'>https://trello.com</a>)</h2><p>Ang Trello ay ang visual na tool sa pamamahala ng trabaho na nagbibigay kapangyarihan sa mga team na mag-ideya, magplano, mamahala, at magdiwang ng kanilang trabaho nang magkasama sa isang collaborative, produktibo, at organisadong paraan. Ang isang board ay kumakatawan sa isang lugar upang subaybayan ang impormasyon — madalas para sa malalaking proyekto, koponan, o daloy ng trabaho.</p><h2><strong>Miro (</strong><a href=\'https://miro.com/\'>https://miro.com</a>)</h2><p>Ang Miro ay isang online na collaborative na whiteboard platform na nagbibigay-daan sa mga distributed team na epektibong magtrabaho nang sama-sama, mula sa brainstorming gamit ang digital sticky notes hanggang sa pagpaplano at pamamahala ng maliksi na daloy ng trabaho. Sa Miro, maaari kang mag-organisa ng mga team, proyekto, at board para magtrabaho sa mga dokumento at lumikha ng mga lohikal na koneksyon upang bumuo ng mga ideya. Ang ilang mga kaso ng paggamit ng Miro ay kinabibilangan ng mga workshop, pananaliksik, pagsusuri, at paggawa ng mga mindmaps o diagram.</p></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'a8f6c1bfe6a34f9995c6bbfd8a691c11',
+        notionId: '10e3c6b826ec4c3eb2d705b1bbf1095b',
         title: 'Anong online tools ang magandang gamitin sa workplace<strong>? (3/4)</strong>',
-        content: '<div class="bloc1"><h2>Parcel<strong> (</strong><a href=\'https://parcel.money/\'>https://parcel.money</a>)</h2><p>Pagdating sa pamamahagi ng reward, matutulungan ka ng Parcel na mag-navigate sa mabagal at mahirap na mundo ng mga on-chain na pagbabayad ng DAO sa kanilang eleganteng, malapit sa zero gas platform. Posible para sa Community Support team na magproseso ng kompensasyon sa pamamagitan ng pagkonekta sa kanilang wallet, pagpili ng tungkulin ng Contributor, at paggawa ng kahilingan sa pagbabayad na may opsyong pumili ng cryptocurrency depende sa kung alin ang available.</p><p>Ang mga transaksyon ay ligtas na pinamamahalaan sa pamamagitan ng mga multi-sign na kontrata na pinapagana ng Gnosis Safe.</p><h2><strong>Coinvise (</strong><a href=\'https://coordinape.com/\'>https://coordinape.com</a>)</h2><p>Ang Coinvise ay isang bukas na platform sa Ethereum kung saan maaaring maglunsad ang mga creator ng isang social at bumuo ng isang tokenized na komunidad. Magagamit ang kanilang mga tool sa pag-airdrop ng mga token, pagdidisenyo ng mga lockup at paggawa ng mga quest. Ang kamalayan sa kung paano makakatulong ang isang platform tulad nito sa Community Support team na tumulong sa mga miyembro kung paano lumahok sa mga airdrop at bounty.</p><ul><li><strong>Airdrop social tokens:</strong> magpadala at tumanggap ng mga social token sa social media, pribadong channel o nang maramihan sa maraming tao, sa pamamagitan ng isang natatanging na-claim na link.</li><li><strong>Rewards & Bounties:</strong> Bigyan ng gantimpala ang iyong komunidad para sa mga kontribusyon at pagdaragdag ng halaga sa pamamagitan ng mga social token.</li><li><strong>Open Social Graph for Creator DAOs / Tokenized Communities:</strong> Tuklasin at palakihin ang iyong komunidad, makipag-ugnayan at mag-ambag sa iba pang mga creator. Makakuha ng mga reward sa pagsali sa mga komunidad, at higit pa.</li></ul></div>'
+        content: '<div class="bloc1"><h2>Parcel<strong> (</strong><a href=\'https://parcel.money/\'>https://parcel.money</a>)</h2><p>Pagdating sa reward distribution, matutulungan ka ng Parcel na mag-navigate sa mabagal at mahirap na mundo ng mga on-chain na pagbabayad ng DAO sa kanilang platform na halos zero ang gas. Posible para sa Community Support team na mag-request ng compensation sa pagkonekta sa kanilang wallet, pagpili ng role bilang Contributor, at pagpili ng cryptocurrency ng kanilang reward depende sa kung alin ang available.</p><p>Ang mga transaksyon ay ligtas na pinamamahalaan sa pamamagitan ng mga multi-sig contract na pinapagana ng Gnosis Safe.</p><h2><strong>Coinvise (</strong><a href=\'https://coordinape.com/\'>https://coordinape.com</a>)</h2><p>Ang Coinvise ay isang bukas na platform sa Ethereum kung saan maaaring maglunsad ang mga creator ng isang social at bumuo ng isang tokenized na komunidad. Magagamit ang kanilang mga tool sa pag-airdrop ng mga token, pagdidisenyo ng mga lockup at paggawa ng mga quest. Ang kamalayan sa kung paano makakatulong ang isang platform tulad nito sa Community Support team na tumulong sa mga miyembro kung paano lumahok sa mga airdrop at bounty.</p><ul><li><strong>Airdrop social tokens:</strong> magpadala at tumanggap ng mga social token sa social media, pribadong channel o nang maramihan sa maraming tao, sa pamamagitan ng isang natatanging na-claim na link.</li><li><strong>Rewards & Bounties:</strong> Bigyan ng parangal ang iyong komunidad para sa mga kontribusyon at pagdaragdag ng halaga sa pamamagitan ng mga social token.</li><li><strong>Open Social Graph for Creator DAOs / Tokenized Communities:</strong> Tuklasin at palakihin ang iyong komunidad, makipag-ugnayan at mag-ambag sa iba pang mga creator. Makakuha ng mga reward sa pagsali sa mga komunidad, at higit pa.</li></ul></div>'
       },
       {
         type: 'LEARN',
-        notionId: 'cd4d322c96c146c1acf846ef5aaf9492',
+        notionId: 'e6c1126aab7b4253a2220089aa0418c7',
         title: 'Anong online tools ang magandang gamitin sa workplace<strong>? (4/4)</strong>',
-        content: '<div class="bloc1"><h2><strong>Discourse (</strong><a href=\'https://www.discourse.org/\'>https://www.discourse.org</a>)</h2><p>Ang Discourse ay isang open-source na platform ng talakayan na ginagamit bilang isang forum o isang mahabang anyo na chat ng mga komunidad. Ito ay naging tahanan ng mga developer na komunidad upang magbigay ng suporta sa teknolohiya at komunidad, at isang lugar para sa maliliit na komunidad upang talakayin ang mga konsepto at pamamaraan. Nagbibigay din ang diskurso sa malalaking komunidad sa pamamagitan ng pagpapahintulot ng sabay-sabay na pakikilahok sa pamamagitan ng paghahati-hati ng mga indibidwal na paksa.</p><h2><strong>Snapshot (</strong><a href=\'https://snapshot.org/#/\'>https://snapshot.org/#/</a>)</h2><p>Snapshot is a decentralized voting system. It provides flexibility on how voting power is calculated for a vote. Snapshot supports various voting types to cater to the needs of organizations. Creating proposals and voting on Snapshot is user-friendly and does not cost gas as the process is performed off-chain. In short, Snapshot is an off-chain gasless multi-governance client with easy to verify and hard to contest results.</p><ul><li>Libre (walang gas) upang lumikha ng mga panukala at bumoto sa mga ito</li><li>Ang mga boto ay mga naka-sign na mensahe na madaling ma-verify online</li><li>Maramihang mga sistema ng pagboto - Isang pagpipilian, Pagboto sa pag-apruba, Quadratic na pagboto, at higit pa</li><li>Mga flexible na diskarte sa pagboto upang kalkulahin ang mga resulta ng pagboto - bumoto gamit ang mga ERC20, NFT, iba pang kontrata, at higit pa</li></ul></div>'
+        content: '<div class="bloc1"><h2><strong>Discourse (</strong><a href=\'https://www.discourse.org/\'>https://www.discourse.org</a>)</h2><p>Ang Discourse ay isang open-source na platform ng talakayan na ginagamit bilang isang forum o isang mahabang anyo na chat ng mga komunidad. Ito ay naging tahanan ng mga developer na komunidad upang magbigay ng suporta sa teknolohiya at komunidad, at isang lugar para sa maliliit na komunidad upang talakayin ang mga konsepto at pamamaraan. Nagbibigay din ang diskurso sa malalaking komunidad sa pamamagitan ng pagpapahintulot ng sabay-sabay na pakikilahok sa pamamagitan ng paghahati-hati ng mga indibidwal na paksa.</p><h2><strong>Snapshot (</strong><a href=\'https://snapshot.org/#/\'>https://snapshot.org/#/</a>)</h2><p>Snapshot is a decentralized voting system. It provides flexibility on how voting power is calculated for a vote. Snapshot supports various voting types to cater to the needs of organizations. Creating proposals and voting on Snapshot is user-friendly and does not cost gas as the process is performed off-chain. In short, Snapshot is an off-chain gasless multi-governance client with easy to verify and hard to contest results.</p><ul><li>Libre (walang gas) upang lumikha ng mga panukala at bumoto sa mga ito</li><li>Ang mga boto ay mga naka-sign na mensahe na madaling ma-verify online</li><li>Maramihang mga sistema ng pagboto - Isang pagpipilian, Pagboto sa pag-apruba, Quadratic na pagboto, at higit pa</li><li>Mga flexible na diskarte sa pagboto upang kalkulahin ang mga resulta ng pagboto - bumoto gamit ang mga ERC20, NFT, at higit pa</li></ul></div>'
       },
       {
         type: 'QUIZ',
-        notionId: 'e21e4729edf540a5b4b6b8779a9e31b0',
-        title: 'Pagsusuri',
+        notionId: '36d548b0e0c84d9cbc460f5512bc7a23',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Aling online na plataporma ang may iba’t-ibang uri ng cloud services tulad ng email, calendar, video call, documents, spreadsheets, at cloud storage?',
           rightAnswerNumber: 3,
@@ -1774,13 +1878,13 @@ const LESSONS: LessonType[] = [
             'Google Workspace',
             'Discord'
           ],
-          id: 'mga-hakbang-sa-community-resolution-8'
+          id: 'online-tools-para-sa-moderation-at-collaboration-8'
         }
       },
       {
         type: 'QUIZ',
-        notionId: '531e331bff5e440ebb27a18808b1a490',
-        title: 'Pagsusuri',
+        notionId: '4692845887854dadaf0dae04683952c7',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Aling online na plataporma ang gumagamit ng whiteboard interface para bumuo ng ideya gamit ang boards para mag-collaborate ang iba’t-ibang grupo?',
           rightAnswerNumber: 3,
@@ -1790,13 +1894,13 @@ const LESSONS: LessonType[] = [
             'Miro',
             'Draw.io'
           ],
-          id: 'mga-hakbang-sa-community-resolution-9'
+          id: 'online-tools-para-sa-moderation-at-collaboration-9'
         }
       },
       {
         type: 'QUIZ',
-        notionId: 'ec34a02efd8f4799af1949ae1c18d880',
-        title: 'Pagsusuri',
+        notionId: '0cc89adeb5d4496a92d11233c9d0705d',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Anong app ang karaniwang ginagamit para mag-request ng sahod para sa mga nag-aambag sa web3?',
           rightAnswerNumber: 4,
@@ -1806,7 +1910,7 @@ const LESSONS: LessonType[] = [
             'Coordinape',
             'Parcel'
           ],
-          id: 'mga-hakbang-sa-community-resolution-10'
+          id: 'online-tools-para-sa-moderation-at-collaboration-10'
         }
       },
       {
@@ -1816,103 +1920,18 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/online-tools-para-moderation-at-collaboration/poap-922d7695.png',
-    lessonImageLink: '/humanDAO/lesson/online-tools-para-moderation-at-collaboration/lesson-5b5ce1ed.png',
-    socialImageLink: '/humanDAO/lesson/online-tools-para-moderation-at-collaboration/social-c781a916.png',
-    learningActions: '',
-    marketingDescription: 'Pagtalakay ng napapanahong online tools',
-    poapEventId: null,
-    kudosId: null,
-    duration: 20,
-    learnings: '',
-    difficulty: undefined,
-    description: 'Pagtalakay ng napapanahong online tools',
-    name: 'Online tools para moderation at collaboration',
-    moduleId: '86834c89c79c427a92e6133422ba976c',
-    quest: 'humanDAOOnlineToolsParaModerationAtCollaboration',
-    publicationStatus: 'publish',
-    isFeaturedOnHomepage: false,
-    isCommentsEnabled: true,
-    endOfLessonRedirect: null,
-    endOfLessonText: undefined,
-    notionId: '487d45837a7148a8a5e346c5aa392b5f',
-    slug: 'online-tools-para-moderation-at-collaboration',
-    imageLinks: [],
-    slides: [
-      {
-        type: 'LEARN',
-        notionId: '55e6854a56bc46c48a1ace7def8a693c',
-        title: '<strong>Which platforms are used to perform the tasks of a Community Support role?</strong>',
-        content: '<div class="bloc1"><p>Many web3 communities have a designated virtual place to communicate, share ideas, and work on projects. One of those popular platforms is Discord.</p><p>Discord offers a variety of communication modes, including text channels, voice channels, and stage channels, all of which are featured on a server. To organize each community\'s systems, admins, moderators, and accompanying bots control this.</p><p>Other social media platforms including Twitter, Facebook, Instagram, and Reddit mostly are used for announcements, contests, and giveaways.</p></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'a3edd30364dd409ebec63e6b10a812a3',
-        title: 'What are Discord’s most useful features?',
-        content: '<div class="bloc1"><p><strong>Application commands</strong></p><p>Text channels allow users to use application commands from bots using the slash symbol <strong>( / )</strong> along with the name of the command.</p><p><strong>Discord: Pin messages</strong></p><p>Even if there’s an announcement channel, it is a good practice to pin messages using the dropdown menu in other channels. This will help you redirect members to important messages rather than repeating them.</p><p><strong>Discord: Markdown text</strong></p><p>There are times when you want to highlight some text in a message. Making use of the markdown formatting system will assist you in creating announcements that stand out.</p></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '1bc6492b14c145e88391ef05ca43341e',
-        title: 'Discord: Server settings',
-        content: '<div class="bloc1"><p>As part of the support team, you have access to certain settings in the Discord server.</p><p>The sections below will give you an idea what data can be changed and how to customize permissions:</p><ul><li><strong>Overview</strong> - server name, banner, and invite background. Also includes system messages channel</li><li><strong>Roles</strong> - creation of role names, default permissions, and hierarchy of roles. The role with the highest permission is on top of the list, and it can be dragged upward or downward to change the hierarchy.</li><li><strong>Emoji and stickers </strong>-<strong> </strong>custom emojis, animated emojis, and stickers that can be exclusively used in the server. Members with nitro subscription can use animated emojis and emojis from other servers.</li><li><strong>Moderation</strong> - includes verification levels for members who will join a server</li> <ul><li>None - no restrictions</li><li>Low - verified email</li><li>Medium - Registered for 5 mins.</li><li>High - Member of the server for 10 mins.</li><li>Highest - Verified email and number</li></ul> </ul></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '13d1311e99b942db94580b4f599de411',
-        title: 'Discord: Server settings',
-        content: '<div class="bloc1"><ul><li><strong>Audit Log</strong> - shows the actions made in the server, with the most recent action on top. It can be filtered by member and type of action.</li><li><strong>Integration</strong> - shows the list of webhooks used, channels followed, and bots invited in the server.</li><li><strong>Widget </strong>- server widgets are used to integrated the server profile in a website using HTML.</li><li><strong>Server Template </strong>-<strong> </strong>it is useful for replicating the same server setup. When a template is generated, it creates an exact copy of the server containing the same channels and permissions.</li><li><strong>Members</strong> - shows the total number of members, which can be filtered by role. A search bar is also available for easier tracking of names.</li><li><strong>Invites </strong>- invite links that are created by members can be viewed here. Discord only has limited number of invite links that can be generated, so it’s best practice to delete unused invite links.</li><li><strong>Bans</strong> - Members included in this list are banned by their account and IP address.</li></ul></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'e6d76f1e49c844a0ab4d1e8535767c8b',
-        title: 'Discord: Server integrations',
-        content: '<div class="bloc1"><p><strong>What are Discord bots?</strong></p><p>Bots on Discord are integrations on the server which help automate tasks including (but not limited to):</p><ul><li>Moderation</li><li>Statistics</li><li>Entertainment</li></ul></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'ed313169158844ff9e5e189c18de014b',
-        title: 'What are some of the most reputable bots?',
-        content: '<div class="bloc1"><p>Whether you’re looking for a solution that can help you automate moderation or provide your community with entertainment, finding the right bot is crucial to maintaining operations and creating a safe place for everyone in the server.</p><p>Here are some of the bots you can consider:</p><p><strong>MEE6 - a moderation bot with custom commands, now used in 18+ million servers </strong></p><p><strong>How it can help your community</strong></p><ol><li>Newcomers can be greeted with a welcome card and custom messaging</li><li>Members can find peers sharing their interests through custom reaction roles and commands, music and games</li><li>Members can be notified of streaming events and new uploads through social connectors</li><li>Members can reach new ranks via the leveling system where they can earn XP for engaging in the server</li></ol><p><strong>How it can help your admins and moderators</strong></p><ol><li>Bots can be renamed to fit the branding of the community</li><li>Auto-moderation only requires to be set up once and can be configured to work on some channels while be exempted from another. </li><li>Custom monthly subscriptions can bootstrap onboarding with gated channels or categories.</li></ol></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '394c738c0a2a42fea49955027d228abb',
-        title: 'What are some of the most reputable bots?',
-        content: '<div class="bloc1"><p><strong>AutoCode </strong>- an open-source automation software suite for building custom bots </p><p><strong>How it can help your community</strong></p><ol><li></li></ol><p><strong>How it can help your admins and moderators</strong></p><ol><li>The app platform allows the server to scale with little configuration from developer side</li><li>Templates are available to get started with </li></ol><p>One of the best ways to work with Discord bots is to read the website’s documentation. It is often linked in pages with different naming conventions including <strong>Tutorials</strong>, <strong>Docs</strong>, and <strong>Commands</strong>.</p></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: '1041b7346da44a41b1d989f333c24a05',
-        title: '<strong>What tools are best to use when working on projects?</strong>',
-        content: '<div class="bloc1"><p>In a decentralized workplace, online tools are commonly being used to accomplish projects even in a remote setting.</p><ol><li><strong>Notion</strong></li></ol><p>Notion is an online workspace where you can take notes, build a database, create kanban boards for your to-do lists, and collaborate with peers for project management tasks.</p><p>This can be used to see what other departments are working on and to update the progress made from your end.</p><ol><li><strong>Google Workspace</strong></li></ol><p>Google Workspace offers multiple productivity tools—including email, calendar, video call, documents, spreadsheets, and a cloud storage where all the data from the productivity apps can be synced.</p><p>File-sharing is one of the major features that is used to consolidate ideas and changes in a document.</p><ol><li><strong>Figma</strong></li></ol><p>Figma is a graphics-editing and prototyping tool used to create digital designs and artworks. It is possible to collaborate with peers here by sharing access to the file.</p><p>For community support roles, having the knowledge to navigate this tool will help in assisting minor changes in social media posts.</p><ol><li><strong>Trello</strong></li></ol><p>Trello is the visual work management tool that empowers teams to ideate, plan, manage, and celebrate their work together in a collaborative, productive, and organized way.</p><p>A board represents a place to keep track of information — often for large projects, teams, or workflows. Whether you are launching a new website, tracking sales, or planning your next office party, a Trello board is the place to organize tasks, all the little details, and most importantly—collaborate with your colleagues.</p><ol><li><strong>Miro</strong></li></ol><p>Miro is an online collaborative whiteboard platform that enables distributed teams to work effectively together, from brainstorming with digital sticky notes to planning and managing agile workflows.</p><p>With Miro, you can organize teams, projects, and boards to work on documents and create logical connections to form ideas. Some use cases of Miro include workshops, research, reviews, and creating mind maps or diagrams.</p></div>'
-      },
-      {
-        type: 'LEARN',
-        notionId: 'dd57b6fdbb7e4dcab4dede59d10ae81d',
-        title: '<strong>What tools are best to use when working on projects?</strong>',
-        content: '<div class="bloc1"><ol><li><strong>Coordinape</strong></li></ol><p>When it comes to rewards distribution, Coordinape is the tool that is commonly used by DAOs. It allow members to acknowledge the efforts of their teammates via the Gift Circle.</p><p>A Gift Circle is where people in the Community Support role can allocate tokens to their team members depending on their contribution.</p><ol><li><strong>Coinvise</strong></li></ol><p>Coinvise is an open platform on Ethereum where creators can launch a social & build a tokenized community. Our tools can be used to airdrop tokens, design lockups & create quests.</p><ul><li><strong>Create their own social token:</strong> on a fixed supply, bonding curve or vesting schedule, where the creators gets to <strong>own</strong> full custody of tokens minted. Additionally, there\'s no cuts for tokens minted on Coinvise.</li><li><strong>Airdrop social tokens:</strong> send and receive social tokens on social media, private channels or in bulk to multiple people, through a unique claimable link.</li><li><strong>Rewards & Bounties:</strong> Reward your community for contributions & adding value through social tokens.</li><li><strong>Open Social Graph for Creator DAOs / Tokenized Communities:</strong> Discover & grow your community, communicate and contribute towards other creators. Earn rewards for joining communities, and more.</li></ul><ol><li><strong>Discourse</strong></li></ol><p>Discourse is an open-source discussion platform used as a forum or a long-form chat by communities. It has been a home to developer communities to provide tech and community support, and a place for small communities to discuss concepts and methodologies. Discourse also caters to large communities by allowing simultaneous participation by breaking down individual topics.</p><ol><li><strong>Snapshot</strong></li></ol><p>Snapshot is a decentralized voting system. It provides flexibility on how voting power is calculated for a vote. Snapshot supports various voting types to cater to the needs of organizations. Creating proposals and voting on Snapshot is user-friendly and does not cost gas as the process is performed off-chain. In short, Snapshot is an off-chain gasless multi-governance client with easy to verify and hard to contest results.</p><ul><li>Free (gasless) to create proposals and vote on them</li><li>Votes are signed messages easily verifiable online</li><li>Multiple voting systems - Single choice, Approval voting, Quadratic voting, and more</li><li>Flexible voting strategies to calculate voting results - vote with ERC20s, NFTs, other contracts, and more</li></ul></div>'
-      },
-      {
-        type: 'END',
-        title: 'End of lesson'
-      }
-    ]
-  },
-  {
-    poapImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/poap-922d7695.png',
-    lessonImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/lesson-122584a4.png',
-    socialImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/social-036f8d33.png',
+    kudosImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/kudos-922d7695.png',
+    lessonImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/lesson-e2cab323.png',
+    socialImageLink: '/humanDAO/lesson/pinakamahusay-na-kasanayan/social-5b35d9ef.png',
     learningActions: '',
     marketingDescription: 'Panatilihing may alam at may seguridad ang iyong komunidad',
-    poapEventId: null,
     kudosId: null,
     duration: 10,
     learnings: '',
     difficulty: undefined,
     description: 'Panatilihing may alam at may seguridad ang iyong komunidad',
     name: 'Pinakamahusay na kasanayan',
-    moduleId: '86834c89c79c427a92e6133422ba976c',
+    moduleId: '36835560ea344efea39d206b16821f53',
     quest: 'humanDAOPinakamahusayNaKasanayan',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: false,
@@ -1925,43 +1944,43 @@ const LESSONS: LessonType[] = [
       '/humanDAO/lesson/pinakamahusay-na-kasanayan/1-gumamit-ng-datos-para-makilala-ang-komunidad-d82ffb55.png',
       '/humanDAO/lesson/pinakamahusay-na-kasanayan/2-gumamit-palagi-ng-dokumentasyon-016734bb.png',
       '/humanDAO/lesson/pinakamahusay-na-kasanayan/3-sumunod-sa-pamamaraan-ng-handoff--a5ada672.png',
-      '/humanDAO/lesson/pinakamahusay-na-kasanayan/4-manatiling-updated-sa-mga-announcements--66366976.png'
+      '/humanDAO/lesson/pinakamahusay-na-kasanayan/4-manatiling-updated-sa-mga-anunsyo--66366976.png'
     ],
     slides: [
       {
         type: 'LEARN',
         notionId: '93e37f01ffe144f8bee651ad1ed2e8ba',
         title: 'Bakit kailangan nating obserbahan ang pinakamahuhusay na kasanayan?',
-        content: '<div class="bloc1"><p>Ang bawat karanasan sa komunidad ay naiiba sa bawat organisasyon. Ito ay nakasalalay sa uri ng relasyon na kailangang buuin, ang etos ng organisasyon, at ang mga produkto, serbisyo, o proyektong ipinapatupad. Ang mga facet na ito ay parehong maaaring makaapekto sa panloob at panlabas na mga komunidad sa pagpapanatiling may kaalaman, konektado, at pinahahalagahan.</p><p>Sa pagpasok ng web3, higit na tututuon ang karanasan ng komunidad sa online na pakikipag-ugnayan. Nangangahulugan ito na magiging mas madali para sa sinuman sa buong mundo na makilahok, ngunit sa parehong oras ay magiging mas mahirap na pamahalaan ang komunidad dahil sa mga pagkakaiba sa time zone, kakulangan ng mga di-berbal na pahiwatig, sabay-sabay na komunikasyon sa iba\'t ibang mga channel, mga panganib sa seguridad, kasama marami pang ibang isyu.</p><p>Para mapadali ang pinakamahuhusay na kagawian at panatilihing nakatuon ang iyong komunidad, kakailanganin mong maglaan ng oras sa pagsasaliksik sa mga kasalukuyang miyembro ng komunidad para maunawaan mo kung anong uri ng mga tao ang mas malamang na lumahok sa organisasyon. Bukod dito, kakailanganin mo ring maglaan ng ilang oras upang gawing mas mahusay ang proseso ng pakikipag-usap at paglutas ng mga problema gamit ang mga naaangkop na feature sa mga online na tool at platform.</p><p>Magsimula tayo sa pamamagitan ng pagsisid sa pinakamahuhusay na kagawian para sa isang Community Support team.</p></div>'
+        content: '<div class="bloc1"><p>Magkakaiba ang karanasan ng bawat organisasyon. Ito ay nakasalalay sa uri ng relasyon na kailangang buuin, at ang mga produkto, serbisyo, o proyektong ipapatupad. </p><p>Sa pagpasok ng web3, lahat ng paraan ng pakikipag-ugnayan ay mangyayari online. Ibig sabihin nito, mas madaling makapasok sa mga komunidad, subalit mas mahirap tulungan ang komunidad dahil sa mga pagkakaiba sa time zone, kakulangan ng mga di-berbal na pakikipag-usap, sabay-sabay na komunikasyon sa iba\'t ibang mga channel, mga panganib sa seguridad, atbp.</p><p>Dahil dito, kakailanganin mong maglaan ng oras sa pagsasaliksik para maunawaan mo kung anong uri ng mga tao ang mas gustong makisama sa organisasyon. Bukod dito, kakailanganin mo ring maglaan ng ilang oras upang gawing mas mahusay ang proseso ng pakikipag-usap at paglutas ng mga problema gamit ang mga naaangkop na feature sa mga online na tool at platform.</p></div>'
       },
       {
         type: 'LEARN',
         notionId: 'ac09970295a443c080b1601440214f71',
         title: '#1: Gumamit ng datos para makilala ang komunidad',
-        content: '<div class="bloc1"><p>Pagkatapos ng ilang panahon, mapapansin mong lumitaw ang iba\'t ibang paksa o isyu ng paulit-ulit. Sa ating nakaraan na aralin, maaalala mo na maaaring ikategorya para sa mas madaling pagtukoy. Kabilang sa ilan sa mga paraan na maasahan ng Community Support team ang mga alalahaning iyon ay ang paggamit ng platform analytics at mga survey.</p><p>Bilang halimbawa, maaari kang pumunta sa Mga Insight sa Server ng Discord na makikita sa mga setting ng server. Nagbibigay-daan ito sa iyong makita kung ano ang kadalasang tinututukan ng mga miyembro ng komunidad sa paggamit ng pagpapanatili ng paglago ng server, rate ng pakikipag-ugnayan, demograpiko ng audience, at mga pakikipag-ugnayan sa channel. Maaari mo ring gamitin ang Discord bots upang magtakda ng mga auto-response na mensahe para sa mga keyword o parirala na karaniwang ginagamit. Ang isa pang paraan ay ang tulungan ang ibang mga departamento na magsagawa ng mga survey para sa mga nobelang proyekto. Maaaring ipakita ng mga layuning resulta kung aling mga bahagi ng mga platform ang nangangailangan ng mas mahusay na suporta at dokumentasyon ng komunidad, habang ang mga subjective na resulta ay maaaring magpakita ng pangkalahatang damdamin ng komunidad.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/1-gumamit-ng-datos-para-makilala-ang-komunidad-d82ffb55.png\'></div>'
+        content: '<div class="bloc1"><p>Mapapansin mong lumitaw ang iba\'t ibang paksa o isyu ng paulit-ulit, kaya kailangan ito ilagay sa isang kategorya. Para maunawan pa natin nito gamit ng datos, mahalagang gumamit ng platform analytics at mga sarbey.</p><p>Bilang halimbawa, maaari kang pumunta sa Server Insights ng Discord kung saan makikita mo ang mga datos sa growth retention, engagement rate, audience demographics, at channel interactions.</p><p>Pwede ka rin mag-send ng auto-response gamit ng mga keyword o parirala na karaniwang lumalabas sa chat. Bukod pa rito, pwede rin mag sarbey para malaman ang lalim ng pakaunawa ng nasa komunidad.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/1-gumamit-ng-datos-para-makilala-ang-komunidad-d82ffb55.png\'></div>'
       },
       {
         type: 'LEARN',
         notionId: 'abda425df0c54c3eb2fe19440bb6955e',
         title: '#2: Gumamit palagi ng dokumentasyon',
-        content: '<div class="bloc1"><p>Habang lumalaki ang mga online na komunidad, sa kalaunan ay magpapatibay ang mga organisasyon ng iba\'t ibang web application, bot, at mobile app para bumuo ng system gamit ang isang technology stack o isang \'tech stack.\' Ang mga teknolohiyang ito ay mag-e-evolve sa proseso kapag kailangan ang ilang partikular na pagbabago, kaya hindi nakakagulat kung naliligaw ka sa pagsubok na i-navigate ang lahat ng tool nang hindi tumutukoy sa isang partikular na base ng kaalaman o dokumentasyon.</p><p>Ang isang dokumentasyon o base ng kaalaman ay naglalaman ng impormasyon tungkol sa kung paano gamitin ang isang partikular na software para sa parehong mga user at developer. Para sa mga proseso ng pagpapatakbo, naglalaman din ang isang dokumentasyon ng pangkalahatang gabay sa kultura ng organisasyon, lifecycle ng proyekto, at mga kasanayan sa handoff.</p><p>Bilang bahagi ng Community Support team, ang iyong layunin ay malaman kung paano pinakamahusay na gamitin ang mga application sa tech stack ng iyong organisasyon, at makikita mo iyon sa pamamagitan ng pagbisita sa mga nauugnay na website ng kumpanya ng software. Maaari ka ring sumangguni sa knowledge base ng iyong organisasyon at bisitahin ang mga available na sunud-sunod na tagubilin, flowchart, at iba pang karaniwang pamamaraan.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/2-gumamit-palagi-ng-dokumentasyon-016734bb.png\'></div>'
+        content: '<div class="bloc1"><p>Habang lumalaki ang mga online na komunidad, kailangang pumili ang isang organisasyon ng iba\'t ibang web application, bot, at mobile app para bumuo ng isang technology stack o \'tech stack.\' Dahil mabilis ang pagbabago ng teknolohiya, maaaring maiba ang ilan sa mga web application na ginagamit sa paglipas ng panahon.</p><p>Ang isang dokumentasyon o knowledge base ay kumakatawan ng impormasyon kung paano gumamit ng isang software. Sa operational processes, ang dokumentasyon naman ay nagbibigay ng impormasyon sa kultura ng isang orgnanisasyon, project lifecycle at proseso ng handoff.</p></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/2-gumamit-palagi-ng-dokumentasyon-016734bb.png\'></div>'
       },
       {
         type: 'LEARN',
         notionId: 'ed75b3d68ea842d3b7d29f8f6fa6405e',
         title: '#3: Sumunod sa pamamaraan ng handoff ',
-        content: '<div class="bloc1"><p>Ang komunikasyon ay maaaring nakakalito. Gayunpaman, laging posible na gawing lubos na nauunawaan at sinusunod ang mga sistema ng organisasyon. Upang makakuha ng tamang impormasyon sa mga tamang tao sa tamang oras, kinakailangan na i-standardize ang impormasyon gamit ang mga pamamaraan ng handoff.</p><p>Sa madaling salita, ang handoff ay ang proseso ng pagpayag sa ibang tao na asikasuhin ang mga bagay na maaari mong alagaan nang may sapat na dokumentasyon at mapagkukunan. Kapag ang ibang tao ay itinalaga sa iyong tungkulin, sila ay kumukuha ng handoff. Kaya paano mo maihahanda ang mga pamamaraan ng handoff para sa mga susunod na kontribyutor? Narito ang ilang paraan para magawa ito nang epektibo:</p><ul><li>Maghanda ng checklist ng iyong pang-araw-araw na gawain at proseso</li><li>Magbigay ng ulat sa pinakabagong mga gawain na ginawa at kung ano ang kailangang ibigay, pati na rin ang mga kasalukuyang isyu at hamon na iyong kinakaharap</li><li>Magbigay ng ilang ideya kung paano sa tingin mo malulutas ang mga isyung iyon</li><li>I-link ang lahat ng kinakailangang mapagkukunan na kailangan para sa gawain</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/3-sumunod-sa-pamamaraan-ng-handoff--a5ada672.png\'></div>'
+        content: '<div class="bloc1"><p>Minsan, nakakaliuto ang pakikipag-usap. Gayunpaman, posible magkaroon ng sistema sa mga proseso ng isang organisasyon. Kinakailangan i-standardize ang impormasyon gamit ang mga pamamaraan ng handoff.</p><p>Sa madaling salita, ang handoff ay ginagawa kapag kailangan mo ipasa ang responsibilidad na may sapat na dokumentasyon at tagubilin. Kapag ang ibang tao ay itinalaga sa iyong tungkulin, sila ang gumaganap sa proseso ng handoff. </p><p>Narito ang ilang paraan para magawa ito nang epektibo:</p><ul><li>Maghanda ng checklist ng iyong pang-araw-araw na gawain at proseso</li><li>Magbigay ng ulat sa mga natapos at hamon na iyong kinakaharap</li><li>Magbigay ng ilang ideya kung paano malulutas ang mga hamon</li><li>I-link ang lahat ng kinakailangang materyal </li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/3-sumunod-sa-pamamaraan-ng-handoff--a5ada672.png\'></div>'
       },
       {
         type: 'LEARN',
         notionId: '48246119a5274f6b93189dc124a3953f',
-        title: '#4: Manatiling updated sa mga announcements ',
-        content: '<div class="bloc1"><p>Marahil ang pinakamadali ngunit pinakamahalagang bagay sa pagsasanay ay ang pagiging up-to-date sa mga pinakabagong balita, proyekto, at proseso ng organisasyon. Mas madalas kaysa sa hindi, ang mga organisasyon ay may nakalaang mga channel sa social media upang mag-post ng mga anunsyo para sa komunidad, habang ang mga miyembro ng koponan ay may mga dedikadong channel ng departamento sa Discord at Slack para sa mga update at handoff ng proyekto. Higit pa rito, ang bawat application sa tech stack ng organisasyon ay mayroon ding mga update sa mga bagong feature, maintenance, at mga outage na makikita sa mga website at social channel.</p><p>Upang matiyak na ikaw ay nasa tuktok ng mga anunsyo na ito, maaari mong subukang gamitin ang mga sumusunod na diskarte:</p><ul><li>Gumamit ng pribadong Discord server para sa iyong Community Support team para sundan ang mga update mula sa mga anunsyo ng Support Server ng iyong tech stack</li><li>I-on ang mga abiso sa email o SMS para sa mga tugon sa form</li><li>Gumamit ng low-code sa walang code na mga platform ng pagsasama tulad ng Zapier o Pipedream upang i-automate ang mga update</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/4-manatiling-updated-sa-mga-announcements--66366976.png\'></div>'
+        title: '#4: Manatiling updated sa mga anunsyo ',
+        content: '<div class="bloc1"><p>Kadalasan, may nakalaang mga channel sa social media upang mag-post ng mga anunsyo para sa komunidad, habang ang mga miyembro ay may mga nakalaan channel sa Discord at Slack para sa mga update at handoff ng proyekto. Bukod pa rito, ang bawat application sa tech stack ng organisasyon ay mayroon ding mga update sa mga bagong feature, maintenance, at mga outage na makikita sa mga website at social channel.</p><p>Upang matiyak na ikaw ay nasa nakatutok ng mga anunsyo na ito, maaari mong subukang gamitin ang mga sumusunod na diskarte:</p><ul><li>Gumamit ng pribadong Discord server para sa iyong Community Support team para sundan ang mga update mula sa mga anunsyo ng Support Server ng iyong tech stack</li><li>I-on ang mga abiso sa email o SMS para sa mga tumugon sa form</li><li>Gumamit ng low-code sa no-code platform tulad ng Zapier o Pipedream para i-automate ang mga update</li></ul></div><div class="bloc2"><img src=\'/humanDAO/lesson/pinakamahusay-na-kasanayan/4-manatiling-updated-sa-mga-anunsyo--66366976.png\'></div>'
       },
       {
         type: 'QUIZ',
         notionId: '0983817761de4e84bd5d1a99a0596b5c',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ano ang maaaring mangyari kung hindi ka nakapagbigay ng sapat na dokumentasyon pagdating ng handoff?',
           rightAnswerNumber: 4,
@@ -1977,7 +1996,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '24a1518cfb784146a3290f85611f75bb',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Saan ka makakahanap ng dokumentasyon na kailangan para sa tech stack mo?',
           rightAnswerNumber: 1,
@@ -1993,7 +2012,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '8158ec76116f48f8a2f150efe490e0f5',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Saan ka makakahanap ng mahalagang datos sa mga web application gaya ng demograpiko at rate of growth?',
           rightAnswerNumber: 2,
@@ -2013,19 +2032,73 @@ const LESSONS: LessonType[] = [
     ]
   },
   {
-    poapImageLink: '/humanDAO/lesson/financial-literacy-101/poap-e5316ff2.png',
+    kudosImageLink: '/humanDAO/lesson/panghuling-pagsusulit/kudos-336e57db.png',
+    lessonImageLink: '/humanDAO/lesson/panghuling-pagsusulit/lesson-bcc5f4f0.png',
+    socialImageLink: '/humanDAO/lesson/panghuling-pagsusulit/social-ae2a2b05.png',
+    learningActions: '',
+    marketingDescription: 'Isang pagsusulit para maging kuwalipikado sa Community Support role',
+    kudosId: null,
+    duration: 10,
+    learnings: '',
+    difficulty: undefined,
+    description: 'Isang pagsusulit para maging kuwalipikado sa Community Support role',
+    name: 'Panghuling Pagsusulit',
+    moduleId: '36835560ea344efea39d206b16821f53',
+    quest: 'humanDAOPanghulingPagsusulit',
+    publicationStatus: 'hidden',
+    isFeaturedOnHomepage: false,
+    isCommentsEnabled: true,
+    endOfLessonRedirect: null,
+    endOfLessonText: undefined,
+    notionId: '8000ee76f12047db928c106e28a14094',
+    slug: 'panghuling-pagsusulit',
+    imageLinks: [
+      '/humanDAO/lesson/panghuling-pagsusulit/mahalagang-paalala-a27eea83.gif'
+    ],
+    slides: [
+      {
+        type: 'LEARN',
+        notionId: 'd1256233a31245919697c06d87a4e782',
+        title: 'Panimula',
+        content: '<div class="bloc1"><p>Naabot mo na ngayon ang pinakahuling bahagi ng modyul ng Community Support, kung saan ilalapat mo ang iyong kaalaman sa mga online tool gaya ng Discord bots. </p><p>Ang pagkuha ng mataas na marka sa pagsusulit ang magpapatunay sa iyong pangunahing kaalaman sa Community Support role at kung paano mag setup ng server para sa isang web3 community.</p><p>Kung kailangan mo pa mag ensayo bago sumagot ng pagsusulit, huwag kang mag-alala! Maaari kang sumali sa isang server para masubukan ang iba’t-ibang commands at iba pang server settings.</p><p><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong><strong>Ano ang mga kailangan ihanda?</strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></strong></p><p>Bago tayo magsimula sa pagsusulit, kailangan mong tiyakin na mayroon kang:</p><ul><li>isang na-verify na Discord account</li><li>isang aktibong email address</li><li>natapos ang mga aralin 1-4 sa Community Support module</li></ul><p>Maaari kang sumali sa server ng pagsasanay anumang oras gamit ng link na ito: <a href=\'https://discord.gg/4Hc8pP7g\'>https://discord.gg/4Hc8pP7g</a>.</p></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '321f3d1766cb468099f91993625f5f39',
+        title: 'Mahalagang Paalala',
+        content: '<div class="bloc1"><p>Pagpasok mo ng practice server, magkakaroon ka ng administrator role na magpapahintulot sayo na magdagdag o mag-invite ng bots na wala sa listahan. Sa madaling salita, pwede mo i-configure ang settings pagdating sa members, channels, at iba pang parte ng server.</p><p>Sundan ang mga hakbang na ito upang ligtas mong magamit ang mga bots</p><ol><li>Hanapin ang official website ng bot na nais mong idagdag.</li><li>Basahin ang documentation bago idagdag ang isang bot sa server.</li><li>Kumpirmahin ang mga permisyo na naka-tsek at i-authorize ito.</li><li>Tignan ng mabuti kung ang bot ay mayroong verified checkmark pagpasok ng sever bago gamitin ang mga commands nito.</li></ol></div><div class="bloc2"><img src=\'/humanDAO/lesson/panghuling-pagsusulit/mahalagang-paalala-a27eea83.gif\'></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: 'c4f9e21a1f4e4486b948252faca60c49',
+        title: 'Istraktura ng Pagsusulit',
+        content: '<div class="bloc1"><p>Ang pagsusulit ay may higit sa 25 katanungan na maaari lamang sagutan sa loob ng 60 minuto.</p><p>Binubuo ito ng mga sumusunod na bahagi:</p><ol><li>Matching type (Mga bahagi ng dashboard ng server/bot) - 25 puntos</li><li>Multiple choice (Pagpili ng tamang aksyon sa isang sitwasyon) - 15 puntos</li><li>Identification (Paggamit ng mga tamang command) - 20 puntos</li><li>Performance task (Paggawa ng mga roles/channel) - 40 puntos</li></ol><p>Upang maging kwalipikado para sa role na ito, kailangan mong maabot ang 80% passing score. Kung hindi, kailangan mong dumaan muli sa pagsusulit sa ibang pagkakataon.</p></div>'
+      },
+      {
+        type: 'LEARN',
+        notionId: '2b182568dc634a30965ae65c0e737537',
+        title: 'Simulan na natin!',
+        content: '<div class="bloc1"><p>Handa ka na ba ngayon?</p><p>Sagutan ang mga kailangang detalye at i-type ang code <strong>CSR2022</strong> sa field ng password upang ma-access ang pagsusulit.</p><p>Ito ang link ng pagsusulit: <a href=\'https://www.proprofs.com/quiz-school/ugc/story.php?title=community-support-role-exam\'>https://www.proprofs.com/quiz-school/ugc/story.php?title=community-support-role-exam</a></p></div>'
+      },
+      {
+        type: 'END',
+        title: 'End of lesson'
+      }
+    ]
+  },
+  {
+    kudosImageLink: '/humanDAO/lesson/financial-literacy-101/kudos-e5316ff2.png',
     lessonImageLink: '/humanDAO/lesson/financial-literacy-101/lesson-baf38d68.png',
     socialImageLink: '/humanDAO/lesson/financial-literacy-101/social-c3051557.jpg',
     learningActions: '',
     marketingDescription: 'Mga pangunahing konsepto ng Financial Literacy',
-    poapEventId: null,
     kudosId: null,
     duration: 15,
     learnings: '',
     difficulty: 'Easy',
     description: 'Mga pangunahing konsepto ng Financial Literacy',
     name: 'Financial Literacy 101',
-    moduleId: 'eec24eea0e8048c29623a8a2cccd0d33',
+    moduleId: '7b4ecd08259c4708aadcd4d76dd4707f',
     quest: 'humanDAOFinancialLiteracy101',
     publicationStatus: 'publish',
     isFeaturedOnHomepage: true,
@@ -2074,7 +2147,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '5cca0e352d4b497ea163b637dd4ed8fa',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Ang kakulangan ng kaalaman sa Financial Literacy ay maaaring magdulot sa',
           rightAnswerNumber: 4,
@@ -2114,7 +2187,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '25ca24af6fc24c659524c1a2b8ca875d',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Piliin ang tamang equation',
           rightAnswerNumber: 2,
@@ -2154,7 +2227,7 @@ const LESSONS: LessonType[] = [
       {
         type: 'QUIZ',
         notionId: '51a9eded704141dd9c78056b629032f0',
-        title: 'Pagsusuri',
+        title: 'Pagsusulit',
         quiz: {
           question: 'Pagkatapos mong kumita ng $HDAO, isa sa mga madaling paraan upang mapalago ang iyong pera ay _______. ',
           rightAnswerNumber: 2,
