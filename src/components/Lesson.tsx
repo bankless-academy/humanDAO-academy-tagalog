@@ -17,8 +17,8 @@ import styled from '@emotion/styled'
 import { useRouter } from 'next/router'
 import ReactHtmlParser, { convertNodeToElement } from 'react-html-parser'
 import { useMediaQuery } from '@chakra-ui/react'
-import { ArrowBackIcon, ArrowForwardIcon } from '@chakra-ui/icons'
-import { Warning, Checks } from 'phosphor-react'
+import { ArrowBackIcon, ArrowForwardIcon, CheckIcon } from '@chakra-ui/icons'
+import { Warning } from 'phosphor-react'
 // import { isMobile } from 'react-device-detect'
 import { useLocalStorage } from 'usehooks-ts'
 
@@ -28,7 +28,7 @@ import Card from 'components/Card'
 import MintKudos from 'components/MintKudos'
 import QuestComponent from 'components/Quest/QuestComponent'
 import { useActiveWeb3React } from 'hooks'
-import { track } from 'utils'
+import { Mixpanel, track } from 'utils'
 import { IS_WHITELABEL } from 'constants/index'
 import { LearnIcon, QuizIcon, QuestIcon, KudosIcon } from 'components/Icons'
 import { theme } from 'theme/index'
@@ -215,6 +215,7 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
   const slide = lesson.slides[currentSlide]
   const isFirstSlide = currentSlide === 0
   const isLastSlide = currentSlide + 1 === numberOfSlides
+  const isBeforeLastSlide = currentSlide + 2 === numberOfSlides
 
   const { account } = useActiveWeb3React()
   const walletAddress = account
@@ -232,6 +233,7 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
   }, [account, slide])
 
   useEffect(() => {
+    Mixpanel.track('open_lesson', { lesson: lesson?.name })
     // preloading all lesson images after 3 seconds for smoother transitions
     setTimeout(() => {
       lesson.imageLinks.forEach((imageLink) => {
@@ -427,7 +429,7 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
                             textAlign="left"
                             rightIcon={
                               answerState === 'CORRECT' ? (
-                                <Checks weight="bold" color="white" />
+                                <CheckIcon color="white" />
                               ) : (
                                 answerState === 'WRONG' && (
                                   <Warning weight="bold" color="white" />
@@ -459,8 +461,20 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
                   {lesson.kudosImageLink && (
                     <>
                       {lesson.kudosImageLink.includes('.mp4') ? (
-                        <Box height="250px" width="250px">
-                          <video controls autoPlay loop>
+                        <Box
+                          height="250px"
+                          width="250px"
+                          borderRadius="30px"
+                          overflow="hidden"
+                          border="2px solid #4b474b"
+                        >
+                          <video
+                            autoPlay
+                            loop
+                            playsInline
+                            muted
+                            style={{ borderRadius: '30px', overflow: 'hidden' }}
+                          >
                             <source
                               src={lesson.kudosImageLink}
                               type="video/mp4"
@@ -557,7 +571,7 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
           {!isLastSlide || (lesson.endOfLessonText && !embed) ? (
             <Button
               ref={buttonRightRef}
-              variant={isLastSlide ? 'primaryBigLast' : 'primaryBig'}
+              variant={isBeforeLastSlide ? 'primaryBigLast' : 'primaryBig'}
               size="lg"
               disabled={
                 (slide.quiz && !answerIsCorrect) ||
@@ -566,7 +580,7 @@ const Lesson = ({ lesson }: { lesson: LessonType }): React.ReactElement => {
               onClick={goToNextSlide}
               rightIcon={<ArrowForwardIcon />}
             >
-              Next
+              {isBeforeLastSlide ? 'Finish' : 'Next'}
             </Button>
           ) : (
             <>

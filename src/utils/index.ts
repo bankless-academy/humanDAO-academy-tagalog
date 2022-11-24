@@ -11,10 +11,12 @@ import { ethers } from 'ethers'
 import { verifyTypedData } from 'ethers/lib/utils'
 import { Network } from '@ethersproject/networks'
 import queryString from 'query-string'
+import mixpanel, { Dict, Query } from 'mixpanel-browser'
 
-import { INFURA_ID } from 'constants/index'
+import { DOMAIN_PROD, INFURA_ID } from 'constants/index'
 import { NETWORKS, SUPPORTED_NETWORKS_IDS, RPCS } from 'constants/networks'
-import ONEINCH_SWAP_ABI from 'abis/1inch.json'
+import ONEINCH_V4_ABI from 'abis/1inch_v4.json'
+import ONEINCH_V5_ABI from 'abis/1inch_v5.json'
 
 declare global {
   interface Window {
@@ -46,7 +48,7 @@ export function isAddress(value: any): string | false {
 }
 
 export function shortenAddress(address: string): string {
-  return `${address.substr(0, 6)}...${address.substr(38, 4)}`
+  return `${address?.substr(0, 6)}...${address?.substr(38, 4)}`
 }
 
 export function getContract(
@@ -225,14 +227,20 @@ export async function validateOnchainQuest(
             check.push(true)
             console.log('OK from')
           }
-          if (
+          // 1inch v4 Router contract
+          const is1inchV4 =
             txDetails.to.toLowerCase() ===
-            // 1inch v4 Router contract
             '0x1111111254fb6c44bac0bed2854e76f90643097d'.toLowerCase()
-          ) {
+          // 1inch v5 Router contract
+          const is1inchV5 =
+            txDetails.to.toLowerCase() ===
+            '0x1111111254EEB25477B68fb85Ed929f73A960582'.toLowerCase()
+          if (is1inchV4 || is1inchV5) {
             check.push(true)
             console.log('OK contract')
-            const iface = new ethers.utils.Interface(ONEINCH_SWAP_ABI)
+            const iface = new ethers.utils.Interface(
+              is1inchV4 ? ONEINCH_V4_ABI : ONEINCH_V5_ABI
+            )
             const decodedData = iface.parseTransaction({
               data: txDetails.data,
               value: txDetails.value,
@@ -261,4 +269,47 @@ export async function validateOnchainQuest(
     console.error(error)
     return false
   }
+}
+
+// TODO: remove debug
+mixpanel.init(process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_ID, {
+  api_host: '/mp',
+  debug: true,
+})
+export const mixpanel_distinct_id = mixpanel.get_distinct_id()
+
+export const Mixpanel = {
+  identify: (id: string) => {
+    mixpanel.identify(id)
+  },
+  alias: (id: string) => {
+    mixpanel.alias(id)
+  },
+  track: (event_name: string, props?: Dict) => {
+    const wallets = {
+      wallets: localStorage.getItem('wallets')
+        ? JSON.parse(localStorage.getItem('wallets'))
+        : [],
+    }
+    const current_wallet = localStorage.getItem('current_wallet')
+    if (current_wallet) {
+      const mp_current_wallet = localStorage.getItem(`mp_${current_wallet}`)
+      if (!mp_current_wallet?.length) {
+        mixpanel.alias(current_wallet)
+        mixpanel.people.set({ name: current_wallet, wallets })
+        localStorage.setItem(`mp_${current_wallet}`, mixpanel_distinct_id)
+      }
+    }
+    mixpanel.track(event_name, { domain: DOMAIN_PROD, ...props })
+  },
+  track_links: (query: Query, name: string) => {
+    mixpanel.track_links(query, name, {
+      referrer: document.referrer,
+    })
+  },
+  people: {
+    set: (props: Dict) => {
+      mixpanel.people.set(props)
+    },
+  },
 }

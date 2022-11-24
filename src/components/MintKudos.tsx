@@ -24,7 +24,12 @@ import { useLocalStorage } from 'usehooks-ts'
 import { useActiveWeb3React } from 'hooks'
 import switchNetwork from 'components/SwitchNetworkButton/switchNetwork'
 import Passport from 'components/Passport'
-import { IS_WHITELABEL, TWITTER_ACCOUNT, LESSONS } from 'constants/index'
+import {
+  IS_WHITELABEL,
+  TWITTER_ACCOUNT,
+  LESSONS,
+  DOMAIN_URL,
+} from 'constants/index'
 import {
   MINTKUDOS_API,
   MINTKUDOS_URL,
@@ -58,6 +63,7 @@ const MintKudos = ({
     'passport',
     EMPTY_PASSPORT
   )
+  const [, setRefreshKudosLS] = useLocalStorage('refreshKudos', false)
 
   const { account, library, chainId } = useActiveWeb3React()
   const toast = useToast()
@@ -188,6 +194,7 @@ const MintKudos = ({
       console.log(result.data)
       if (result.data.location) {
         await followOperation(result.data.location)
+        setRefreshKudosLS(true)
         setIsKudosMintedLS(true)
         toast.closeAll()
         // TODO: add 🎊
@@ -267,12 +274,13 @@ const MintKudos = ({
   const share = `I've just claimed my "${
     lesson.name
   }" on-chain credential at @${TWITTER_ACCOUNT} 🎉
-${MINTKUDOS_URL}profile/${account}?tab=Received&tokenId=${kudosId}
-
 ${
   IS_WHITELABEL
-    ? ''
-    : `Join the journey and level up your #web3 knowledge! 👨‍🚀🚀`
+    ? `
+Go claim yours here 👇 ${DOMAIN_URL}/lessons/${lesson.slug}`
+    : `${MINTKUDOS_URL}profile/${account}?tab=Received&tokenId=${kudosId}
+
+Join the journey and level up your #web3 knowledge! 👨‍🚀🚀`
 }`
 
   const twitterLink = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
