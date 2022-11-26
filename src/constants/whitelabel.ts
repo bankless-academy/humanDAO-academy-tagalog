@@ -10,6 +10,7 @@ export const WHITELABEL: WhitelabelType = {
   homepage_background: '/humanDAO/homepage_background-36891d2f.png',
   logo_small: '/humanDAO/logo-9db9996d.png',
   umami_prod: 'a50ccb31-0534-407f-aebe-312bd64b2689',
+  twitter_account: 'humanDAO',
   notion_pages: {
     faq: 'd82e094471d04d728a302904f8d8f878',
   }
