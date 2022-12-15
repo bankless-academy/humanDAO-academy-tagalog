@@ -14,7 +14,7 @@
   "custodial wallets": {
     "definition": "With a custodial wallet, another party controls the private keys, thus controlling access to your crypto assets."
   },
-  "DeFi": {
+  "defi": {
     "definition": "An abbreviation for decentralized finance."
   },
   "hot wallet": {
@@ -29,7 +29,7 @@
   "non-custodial wallets": {
     "definition": "With a non-custodial wallet, you have sole control of your private keys, which in turn control your crypto assets."
   },
-  "POAP": {
+  "poap": {
     "definition": "A POAP (Proof of Attendance Protocol) is a badge that keeps a reliable record of life experiences in your wallet, like for example successfully completing a lesson."
   },
   "private key": {
