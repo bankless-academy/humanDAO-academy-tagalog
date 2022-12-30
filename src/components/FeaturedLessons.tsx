@@ -1,8 +1,8 @@
 import React from 'react'
-import NextLink from 'next/link'
 import { Box, Text, Image, Heading, Button, SimpleGrid } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
+import InternalLink from 'components/InternalLink'
 import { LESSONS, IS_WHITELABEL } from 'constants/index'
 import LessonBanner from 'components/LessonBanner'
 import { useSmallScreen } from 'hooks/index'
@@ -20,12 +20,13 @@ const FeaturedLessons: React.FC = () => {
   return (
     <Box mt="16">
       <Heading as="h2" size="xl">
-        Featured Lessons
+        Featured Content
       </Heading>
       <Box>
         {[...LESSONS]
           .reverse()
-          .filter((lesson) => lesson.isFeaturedOnHomepage)
+          .filter((lesson) => lesson.featuredOrderOnHomepage)
+          .sort((a, b) => a.featuredOrderOnHomepage - b.featuredOrderOnHomepage)
           .map((lesson, key) => {
             const isKudosMinted = localStorage.getItem(
               `isKudosMinted-${lesson.kudosId}`
@@ -33,16 +34,19 @@ const FeaturedLessons: React.FC = () => {
             const isLessonStarted = (localStorage.getItem(lesson.slug) || 0) > 0
             const LessonImage = (
               <LessonBanner
-                iswhitelabel={IS_WHITELABEL.toString()}
+                iswhitelabel={(IS_WHITELABEL || lesson?.isArticle)?.toString()}
                 cursor="pointer"
                 style={{
                   aspectRatio: '1.91/1',
                 }}
                 maxW="600px"
               >
-                <NextLink href={`/lessons/${lesson.slug}`}>
+                <InternalLink
+                  href={`/lessons/${lesson.slug}`}
+                  alt={lesson.name}
+                >
                   <Image src={lesson.lessonImageLink} />
-                </NextLink>
+                </InternalLink>
               </LessonBanner>
             )
             const LessonDescription = (
@@ -51,18 +55,23 @@ const FeaturedLessons: React.FC = () => {
                 <Text fontSize="lg" my="4">
                   {lesson.marketingDescription}
                 </Text>
-                <NextLink href={`/lessons/${lesson.slug}`}>
+                <InternalLink
+                  href={`/lessons/${lesson.slug}`}
+                  alt={lesson.name}
+                >
                   <Button
                     variant={isKudosMinted ? 'secondary' : 'primary'}
                     mt="4"
                   >
-                    {isKudosMinted
-                      ? 'Retake Lesson'
+                    {lesson?.isArticle
+                      ? 'Read Entry'
+                      : isKudosMinted
+                      ? 'Revisit Lesson'
                       : isLessonStarted
                       ? 'Resume Lesson'
                       : 'Start Lesson'}
                   </Button>
-                </NextLink>
+                </InternalLink>
               </Box>
             )
             return (

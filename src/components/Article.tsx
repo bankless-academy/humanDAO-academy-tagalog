@@ -1,11 +1,24 @@
-import { Box, Container, Link, Image, Tooltip } from '@chakra-ui/react'
+import React, { useEffect } from 'react'
+import {
+  Box,
+  Container,
+  Image,
+  Tooltip,
+  Button,
+  Text,
+  SimpleGrid,
+} from '@chakra-ui/react'
+import { ArrowRight } from 'phosphor-react'
 import ReactMarkdown from 'react-markdown'
 import styled from '@emotion/styled'
 // TODO: migrate to mdxjs https://mdxjs.com/packages/react/
 
+import ExternalLink from 'components/ExternalLink'
+import InternalLink from 'components/InternalLink'
 import { LessonType } from 'entities/lesson'
 import { useSmallScreen } from 'hooks/index'
 import { KEYWORDS } from 'constants/index'
+import { Mixpanel } from 'utils'
 
 // TODO: clean dirty copy/paste style
 const H1 = styled(Box)<{ issmallscreen?: string }>`
@@ -161,7 +174,8 @@ const ArticleStyle = styled(Box)<{ issmallscreen?: string }>`
     -webkit-text-stroke-color: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
   }
-  p {
+  > p,
+  blockquote p {
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
@@ -184,7 +198,8 @@ const ArticleStyle = styled(Box)<{ issmallscreen?: string }>`
     -webkit-text-stroke-color: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
   }
-  ul {
+  ul,
+  ol {
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.7);
     display: flex;
@@ -211,7 +226,7 @@ const ArticleStyle = styled(Box)<{ issmallscreen?: string }>`
     -webkit-text-stroke-color: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
   }
-  li {
+  ul li {
     box-sizing: border-box;
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
@@ -439,6 +454,15 @@ const ArticleStyle = styled(Box)<{ issmallscreen?: string }>`
       margin-top: 0;
       margin-bottom: 0;
     }
+    ul {
+      ${(props) =>
+        props.issmallscreen === 'true'
+          ? `
+        padding-left: 16px;
+        padding-right: 16px;
+      `
+          : ``};
+    }
   }
   p > img {
     ${(props) =>
@@ -455,6 +479,20 @@ const ArticleStyle = styled(Box)<{ issmallscreen?: string }>`
     border-bottom: 1px dashed grey;
     display: inline-block !important;
   }
+  ol {
+    padding-left: 43px;
+    li {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+`
+
+const GoldButton = styled(Button)`
+  background: linear-gradient(105.55deg, #fbba59 12.48%, #bf8260 95.84%);
+  :hover {
+    border: 1px solid #f1b15a;
+  }
 `
 
 const Article = ({
@@ -467,6 +505,10 @@ const Article = ({
   const [isSmallScreen] = useSmallScreen()
   const keywords = { ...KEYWORDS, ...extraKeywords }
 
+  useEffect(() => {
+    Mixpanel.track('open_lesson', { lesson: lesson?.name })
+  }, [])
+
   return (
     <Container maxW="container.md" p={isSmallScreen ? '0' : 'unset'}>
       <Image
@@ -478,10 +520,11 @@ const Article = ({
       />
       <H1 issmallscreen={isSmallScreen.toString()}>{lesson.name}</H1>
       <Box p="24px">
-        {`Original Mirror article: `}
-        <Link href={lesson.mirrorLink} target="_blank">
-          {lesson.mirrorLink}
-        </Link>
+        <ExternalLink href={lesson.mirrorLink}>
+          <Button variant="primary" rightIcon={<ArrowRight size={16} />}>
+            View on Mirror.xyz
+          </Button>
+        </ExternalLink>
       </Box>
       <ArticleStyle issmallscreen={isSmallScreen.toString()}>
         <ReactMarkdown
@@ -507,17 +550,66 @@ const Article = ({
             // force links to target _blank
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             a: ({ node, children, ...props }) => {
-              return (
-                <a target="_blank" {...props}>
-                  {children}
-                </a>
-              )
+              return <ExternalLink {...props}>{children}</ExternalLink>
             },
           }}
         >
           {lesson.articleContent}
         </ReactMarkdown>
       </ArticleStyle>
+      <Box
+        border="1px solid #989898"
+        py="8"
+        px="6"
+        m="24px"
+        borderRadius="lg"
+        display={isSmallScreen ? 'block' : 'flex'}
+      >
+        <Box w={isSmallScreen ? '100%' : '70%'}>
+          <Text fontSize="xl" fontWeight="bold">
+            {`Subscribe to the Explorer's Handbook`}
+          </Text>
+          <Text fontSize="xl">Receive new entries directly to your inbox.</Text>
+        </Box>
+        <Box
+          textAlign={isSmallScreen ? 'left' : 'right'}
+          w={isSmallScreen ? '100%' : '30%'}
+          alignSelf="center"
+          alignItems="center"
+          mt={isSmallScreen ? '20px' : '0'}
+        >
+          <ExternalLink href={lesson.mirrorLink}>
+            <Button variant="primary">Subscribe</Button>
+          </ExternalLink>
+        </Box>
+      </Box>
+      <SimpleGrid columns={{ sm: 1, md: 2, lg: 2 }} gap={6} m="24px">
+        <Box
+          // border="1px solid #989898"
+          py={isSmallScreen ? '2' : '6'}
+          px="6"
+          borderRadius="lg"
+        >
+          <ExternalLink href={lesson.mirrorLink}>
+            <GoldButton variant="primary" w="100%">
+              Collect Entry
+            </GoldButton>
+          </ExternalLink>
+        </Box>
+        <Box
+          // border="1px solid #989898"
+          py={isSmallScreen ? '2' : '6'}
+          px="6"
+          borderRadius="lg"
+          textAlign="center"
+        >
+          <InternalLink href={`/lessons`}>
+            <Button variant="primary" w="100%">
+              Explore more Lessons
+            </Button>
+          </InternalLink>
+        </Box>
+      </SimpleGrid>
     </Container>
   )
 }
