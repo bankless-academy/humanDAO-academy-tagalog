@@ -13,5 +13,6 @@ export const WHITELABEL: WhitelabelType = {
   twitter_account: 'humanDAO',
   notion_pages: {
     faq: 'd82e094471d04d728a302904f8d8f878',
+    disclaimer: '7d76e95b12234084bd48216fdc18b211',
   }
 }
