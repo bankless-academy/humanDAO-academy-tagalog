@@ -16,9 +16,10 @@ export const PROJECT_DESCRIPTION = 'Level up your knowledge of Web3 and DeFi'
 export const DOMAIN_PROD = WHITELABEL?.domain_prod || 'app.banklessacademy.com'
 
 export const DOMAIN_URL =
-  process.env.VERCEL_URL && process.env.VERCEL_ENV !== 'production'
-    ? `https://${process.env.VERCEL_URL}`
-    : `https://${DOMAIN_PROD}`
+  process.env.NODE_ENV === 'development' ? `http://localhost:3000` :
+    process.env.VERCEL_URL && process.env.VERCEL_ENV !== 'production'
+      ? `https://${process.env.VERCEL_URL}`
+      : `https://${DOMAIN_PROD}`
 
 export const imageMeta = WHITELABEL?.default_metadata_image || '/images/bankless_academy_v3.jpg'
 
@@ -102,6 +103,14 @@ export const MIRROR_WHITELISTED_ACCOUNTS = [
 export const MIRROR_ARTICLE_ADDRESSES = LESSONS.filter(
   (lesson) => lesson.mirrorNFTAddress
 ).map((lesson) => lesson.mirrorNFTAddress)
+
+export const COLLECTIBLE_DETAILS = {}
+LESSONS.filter(
+  (lesson) => lesson.collectibleId
+).map((lesson) => COLLECTIBLE_DETAILS[lesson.collectibleId] = {
+  englishName: lesson.englishName,
+  codeName: lesson.collectibleId.startsWith('H') ? lesson.collectibleId.replace('H', 'HANDBOOK') : lesson.collectibleId.replace('D', 'DATADISK')
+})
 
 export const COLLECTIBLE_ADDRESSES = LESSONS.filter(
   (lesson) => lesson.lessonCollectibleTokenAddress
