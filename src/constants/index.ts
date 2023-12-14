@@ -116,6 +116,9 @@ export const COLLECTIBLE_ADDRESSES = LESSONS.filter(
   (lesson) => lesson.lessonCollectibleTokenAddress
 ).map((lesson) => lesson.lessonCollectibleTokenAddress)
 
+
+export const MAX_COLLECTIBLES = Object.keys(COLLECTIBLE_DETAILS).reduce((previousValue, currentValue) => previousValue + (currentValue.startsWith('D') ? 3 * 2 : 1), 0)
+
 export const ACTIVATE_MIXPANEL = !!process.env.NEXT_PUBLIC_MIXPANEL_PROJECT_ID
 
 export const KEYWORDS =
@@ -137,3 +140,5 @@ export const DISCLAIMER_ENABLED =
 export const WALLET_SIGNATURE_MESSAGE = 'Signing a message with my wallet to prove I own it so I can claim the lesson badge.'
 
 export const POTION_API = 'https://potion.banklessacademy.com'
+
+export const IS_WALLET_DISABLED = true
